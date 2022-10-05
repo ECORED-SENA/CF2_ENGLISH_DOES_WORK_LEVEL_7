@@ -1,17 +1,39 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'My life has never been boring!<br><span class= r--4> ¡Mi vida nunca ha sido aburrida!</span>',
+    descripcionCurso:
+      'Este componente se enfocará en el tiempo presente perfecto, se repasarán algunas expresiones temporales de este tiempo verbal y se van a comparar las funciones de este con las del pasado simple, ya que ambos serán útiles a la hora de aprender a estructurar textualmente recuentos anecdóticos. Para esto último, también se aprenderá a comparar con adverbios, frases exclamativas y más vocabulario sobre experiencias de vida.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/a1.svg'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/a2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/a3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/a4.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-5', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/a5.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-6', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/a6.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-7', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/flag.svg'),
       },
     ],
   },

@@ -2,13 +2,38 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 20%
+    right: 70%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float2 4.8s ease-in-out infinite alternate
     position: absolute
     top: 51%
-    right: 30%
+    right: 70%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 81%
+    right: 67%
+  &-4
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    right: 20%
+  &-5
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 40%
+    right: 15%
+  &-6
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 11%
+    right: 20%
+  &-7
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 10%
+    left: -111%
 
 
 @keyframes float1
@@ -17,3 +42,73 @@
 
   100%
     transform: translateY(0px)
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+.banner-interno__fondo 
+  background-image: url(../assets/curso/temas/bg-interno.png) !important
+  background-repeat: no-repeat
+  background-size: 100% 100%
+  background-position: center
+
+// Margen negativo ////R
+.margin-n
+  margin: 0 -3rem  
+
+// Span color //
+span.r
+  &--1
+    color: $color-primario
+    b
+      color: $color-primario
+  &--2
+    color: $color-secundario
+    b
+      color: $color-secundario
+  &--3
+    color: $color-acento-contenido
+    b
+      color: $color-acento-contenido
+  &--4
+    color: $color-acento-botones
+    b
+      color: $color-acento-botones
+  &--g
+    color: #777777
+
+// Contenedor traductor ////R
+.contenedor-traductor
+  position: relative
+  background-color: #fff1f1
+  padding: 2em
+  border-radius: 10px
+  transition: height 0.5s ease-in-out
+  &__esp
+    border-top: 3px solid #69727c
+    padding-top: 1em
+  .boton-traduccion
+    position: absolute
+    bottom: 0
+    right: 0
+    color: $white
+    transform: translateY(100%) translateX(-13%)
+    background-color: #5683f0
+    border-radius: 0px 0px 10px 10px
+    padding: 0.5em 1em
+    cursor: pointer
+    &:hover
+      background-color: darken(#5683f0, 2 )
+.mostrar
+  display: none
+.slyder__btn
+  background-color: $color-acento-botones
+
+.no-input
+  .tarjeta-audio__input 
+    display: none !important
+  .tarjeta-audio__texto
+    font-weight: normal
