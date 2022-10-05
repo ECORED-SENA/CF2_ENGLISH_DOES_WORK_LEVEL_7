@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Titulo de primer nivel
+      h1 #[em I have won the lotto twice!] (¡Yo he ganado la lotería dos veces!)
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
         .contenedor-traductor(style='background-color: #fcf2ca')
@@ -177,50 +177,30 @@ export default {
     dialogo: {
       personajes: [
         {
-          nombre: 'Hanna',
-          img: require('@/assets/componentes/ej-05.svg'),
+          nombre: 'Sonia',
+          img: require('@/assets/curso/temas/tema1/son.svg'),
         },
         {
-          nombre: 'Jhon',
-          img: require('@/assets/componentes/ej-05.svg'),
+          nombre: 'Pedro',
+          img: require('@/assets/curso/temas/tema1/mon.svg'),
         },
       ],
       dialogo: [
         {
-          personaje: 'Hanna',
-          textoIng: 'I need the biology book and the sheets.',
+          personaje: 'Sonia',
+          textoIng:
+            'Now tell me, ¿what *** been the most memorable day of your life?',
           textoEsp: 'Yo necesito el libro de biologia y las diapositivas.',
           audio: require('@/assets/curso/audios/tema1/1.mp3'),
+          palabra: 'has',
         },
         {
-          personaje: 'Jhon',
+          personaje: 'Pedro',
           textoIng:
-            'I need the *** book and the sheets book and the sheets book and the sheets book and the sheets.',
-          textoEsp:
-            'Yo necesito el libro de *** y las diapositivas Yo necesito el libro de Yo necesito el libro de Yo necesito el libro de .',
+            'My life hasn’t been as exciting as yours, but I think that the most memorable day of my life was when I *** married to my wife.',
+          textoEsp: '',
           audio: require('@/assets/curso/audios/tema1/1.mp3'),
-          palabra: 'Biology1',
-        },
-        {
-          personaje: 'Hanna',
-          textoIng: 'I need the biology books and the ***.',
-          textoEsp: 'Yo necesito el libro de biologia y las ***.',
-          audio: require('@/assets/curso/audios/tema1/1.mp3'),
-          palabra: 'sheets2',
-        },
-        {
-          personaje: 'Jhon',
-          textoIng: 'I *** the biology books and the sheets',
-          textoEsp: 'Yo *** el libro de biologia y las diapositivas.',
-          audio: require('@/assets/curso/audios/tema1/1.mp3'),
-          palabra: 'need3',
-        },
-        {
-          personaje: 'Hanna',
-          textoIng: 'I need the biology books and the ***.',
-          textoEsp: 'Yo necesito el libro de biologia y las ***.',
-          audio: require('@/assets/curso/audios/tema1/1.mp3'),
-          palabra: 'sheets4',
+          palabra: 'got',
         },
       ],
     },
