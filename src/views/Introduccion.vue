@@ -50,26 +50,4 @@ export default {
   background-repeat: no-repeat
   background-size: cover
   background-position: center
-.tarjeta-intro
-  position: relative
-  &__icon1
-    position: absolute
-    top: 0
-    right: 0
-    transform: translate(50%,30%)
-    width: 75px
-  &__icon2
-    position: absolute
-    bottom: 0
-    left: 0
-    transform: rotate(-30deg) translate(-10%,30%)
-    width: 83px
-  &__cta
-    @media (min-width: $bp-min-xl)
-
-      position: absolute
-      width: 80%
-      left: 0
-      bottom: 0
-      transform: translate(5%,40%)
 </style>
