@@ -16,8 +16,7 @@
               br
               |Our stories, experiences, and anecdotes are part of our lives, and that is why we love to share them with family, friends and acquaintances. Surely, we know how to tell them in great detail, but… to tell in English we must use the appropriate verb tenses, expressions to give rise to another idea or to end a narrative. Based on this statement, we invite you to listen to the following dialogue, more complex and elaborated, with the grammatical structures used in an anecdote. 
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
-            //TODO Agregar traducción
-            p 
+            p Una anécdota es una historia corta e interesante, generalmente con una lección o tema singular. Las anécdotas no difieren mucho de las historias cotidianas contadas entre amigos, pero, cuando se usan en la literatura, pueden lograr más que simplemente entretener.
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp' style='background-color: #fc5f65') Ver traducción
     .margin-n.p-5.mb-5.bg-tema(data-aos="zoom-in")
       h4.text-center
@@ -87,8 +86,19 @@
                     br
                     |A story that tends to focus on a single character (usually the narrator).
                 .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp2}")
-                  //TODO Agregar traducción
-                  p 
+                  p Una anécdota es...
+
+                    br
+                    |- Una historia breve y entretenida de sucesos del pasado.
+                    br
+                    |- Generalmente, divertida, aterradora o extraordinaria.
+                    br
+                    |- Real o ficticia. O una mezcla de ambos debido a la exageración del narrador.
+                    br
+                    |- Una narración de la que se puede sacar una enseñanza y su tono puede variar desde la advertencia hasta la jocosidad.
+                    br
+                    |- Un relato que tiende a centrarse en un solo personaje (generalmente, el narrador).
+
             a.boton-traduccion(@click='ocultarEsp2 = !ocultarEsp2' style='background-color: #fc5f65 ; right: 10%') Ver traducción
     div(style="background-color: #3c3fa7 ").p-2.d-inline-block.mb-4
           h4.text-white.mb-0.mx-5 #[em Anecdote Structure] / Estructura de anécdota   
@@ -132,8 +142,10 @@
               br
               |Now, let’s see in the following text the structure of the anecdote placing each of its parts within a familiar context.
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp3}")
-            //TODO Agregar traducción
-            p 
+            p Toda gran historia comienza con una excelente introducción que permite a la audiencia interesarse por lo que está por narrar. Por supuesto, es importante que, al momento de contar una historia, «recreemos la escena» o describamos el escenario donde todo ocurrió. En cada relato interesante, encontramos un momento de verdadera tensión, así como un conflicto o tragedia —quizás algo exagerada— que ha vivido o visto el narrador. Sin embargo, para mantener la atención de la audiencia, el narrador de una anécdota a menudo acorta la historia, contando solo los detalles divertidos o relevantes. Finalmente, la gente suele reflexionar sobre una anécdota después de haberla contado, resaltando la parte más divertida o interesante.
+              br
+              |Ahora, veamos en el siguiente texto la estructura de la anécdota ubicando cada una de sus partes dentro de un contexto familiar.
+
           a.boton-traduccion(@click='ocultarEsp3 = !ocultarEsp3' style='background-color: #fc5f65') Ver traducción
       .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema3/6.png', alt='' style='width: 100%')
     figure.mb-5

@@ -27,8 +27,7 @@
           .contenedor-traductor__eng
             p.fst-italic  Comparative adverbs, like comparative adjectives, are used to describe the differences and similarities between two things. The difference is that comparative adjectives describe similarities and differences between two nouns (people, places or objects), whereas comparative adverbs make comparisons between two verbs (they describe how an action is performed). For example :
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
-            //TODO Agregar traducción
-            p 
+            p Los adverbios comparativos, al igual que los adjetivos comparativos, se usan para describir las diferencias y similitudes entre dos cosas. La diferencia recae en que los adjetivos comparativos describen similitudes y diferencias entre dos sustantivos (personas, lugares u objetos), en cambio, los adverbios comparativos hacen comparaciones entre dos verbos (describen cómo se realiza una acción).
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp' style='background-color: #fc5f65') Ver traducción
     .tarjeta--container.row.mb-5(zoom="zoom-in") 
       .col-md.tarjeta.color-primario.rounded-0.p-5
@@ -79,8 +78,7 @@
           .contenedor-traductor__eng
             p.fst-italic  From the examples seen, we invite you to listen to the following thematic dialogue, more complex and elaborated, with the grammatical structures used in comparison with adverbs.
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
-            //TODO Agregar traducción
-            p 
+            p A partir de los ejemplos vistos, lo invitamos a escuchar el siguiente diálogo temático, más complejo y elaborado, con las estructuras gramaticales utilizadas en comparación con adverbios.
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp' style='background-color: #fc5f65') Ver traducción
       .col-lg-8(data-aos="fade-left")
         .tarjeta.p-4(style='background-color: #ffdfe0')
@@ -178,8 +176,10 @@
               br
               |Adverbs of manner are words that modify verbs, adjectives, and other adverbs. They indicate how an action occurs or develops. They answer the question about how, what, where, etc.
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp3}")
-            //TODO Agregar traducción
-            p 
+            p Para poder hacer comparaciones con adverbios de modo, primero debemos aprender bien qué son y cómo formarlos.
+              br
+              |Los adverbios de modo son palabras que modifican verbos, adjetivos y otros adverbios. Indican de qué manera ocurre o se desarrolla una acción. Responden a las preguntas sobre cómo, qué, dónde, etc.
+
           a.boton-traduccion(@click='ocultarEsp3 = !ocultarEsp3' style='background-color: #fc5f65') Ver traducción
     p.mb-5(data-aos='fade-right') Se le invita a explorar el video que se presenta a continuación:
     figure.mb-5
@@ -242,8 +242,7 @@
               br
               |Let’s see the cases and norms of regular and irregular adverbs, and how to form them:
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp4}")
-            //TODO Agregar traducción
-            p 
+            p Los adverbios regulares se forman agregando el sufijo "-ly", a veces solo o con alguna ligera variación al final del adjetivo. Los adverbios irregulares no se forman a partir de estas convenciones ortográficas estándar del inglés. Debido a que no siguen las “reglas”, no hay truco para usarlos, simplemente hay que memorizarlos.
           a.boton-traduccion(@click='ocultarEsp4 = !ocultarEsp4' style='background-color: #fc5f65') Ver traducción
     h4.fst-italic.text-center Regular adverbs rules
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta bg-rojo ")

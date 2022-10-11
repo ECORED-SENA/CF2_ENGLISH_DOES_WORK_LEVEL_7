@@ -22,8 +22,8 @@
               br
               |Next, you are invited to listen to the following thematic dialogue with exclamation phrases that are used in some English conversations.
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
-            //TODO Agregar traducción
-            p 
+            p Las exclamaciones son usadas para expresar sorpresa, conmoción o una emoción fuerte sobre algo. Al escribir, suele ponerse un signo de exclamación (!) al final de la frase exclamativa.  A diferencia del español, el inglés no tiene un signo de exclamación de apertura al principio de la frase.
+
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp' style='background-color: #fc5f65') Ver traducción
       .col-lg-4.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema5/1.jpg', alt='' style='border-radius: 20px')
     .margin-n.p-5.mb-5.bg-tema(data-aos="zoom-in")

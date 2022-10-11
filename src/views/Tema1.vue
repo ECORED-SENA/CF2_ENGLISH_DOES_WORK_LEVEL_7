@@ -23,11 +23,7 @@
             .contenedor-traductor__eng
               p.fst-italic Two or more people have a conversation in the present perfect when they talk about events that have been going on for a long time and can be repeated in the present, either sporadically or constantly, applying the grammatical rules.
             .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp2}")
-
-              //TODO Agregar texto traducido 
-
-
-              p 
+              p Dos o más personas tienen una conversación en presente perfecto cuando hablan de eventos que suceden desde hace tiempo y pueden repetirse en el presente, ya sea de forma esporádica o constante, aplicando las reglas gramaticales.
             a.boton-traduccion(@click='ocultarEsp2 = !ocultarEsp2' style='background-color: #fc5f65') Ver traducción
           .tarjeta.p-4(style='background-color: #ffdfe0')
             .row.justify-content-center.mb-5

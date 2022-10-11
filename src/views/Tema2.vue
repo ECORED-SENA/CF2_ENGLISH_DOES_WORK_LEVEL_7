@@ -22,8 +22,7 @@
           .contenedor-traductor__eng
             p.fst-italic The present perfect tense speaks of an action that took place in the past but still has some importance in the present tense, life experiences, and it focuses on a fact that has happened.
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
-            //TODO Agregar traducción
-            p 
+            p El tiempo presente perfecto habla de una acción que se llevó a cabo en el pasado, pero que todavía tiene cierta importancia en el tiempo presente, experiencias de vida y se enfoca en un hecho que ha sucedido. 
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp' style='background-color: #fc5f65') Ver traducción
         img(src='@/assets/curso/temas/tema2/4.svg', alt='')
     p.text-center El siguiente video nos amplía la información sobre el uso del 
@@ -106,8 +105,7 @@
           .contenedor-traductor__eng
             p.fst-italic The present perfect tense is formed using the present tense of the verb “have” plus the past participle of the main verb. You have to be careful with the third person singular (he, she, it) since the auxiliary is “has”, not “have” as for the other grammatical persons (I, you, we, they).
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp2}")
-            //TODO Agregar traducción
-            p 
+            p El tiempo presente perfecto se forma usando el presente del verbo "have" más el participio pasado del verbo principal. Hay que tener cuidado con la tercera persona en singular (he, she, it) porque el auxiliar es "has", no "have" como para las demás personas gramaticales (I, you, we, they). 
           a.boton-traduccion(@click='ocultarEsp2 = !ocultarEsp2' style='background-color: #fc5f65') Ver traducción
     .margin-n.p-3.px-5.mb-5(style="background-color: #a6bbff")
       .row.justify-content-center.mb-4
@@ -248,8 +246,7 @@
           .contenedor-traductor__eng
             p.fst-italic  It is quite useful when you want to tell an anecdote that has happened to you, or describe the trips made, as well as to express experiences or memories.
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp4}")
-            //TODO Agregar traducción
-            p 
+            p Resulta bastante útil cuando se quiere contar una anécdota que te ha ocurrido, o describir los viajes realizados, así como para expresar experiencias o recuerdos. A continuación, se presentan algunos ejemplos.
           a.boton-traduccion(@click='ocultarEsp4 = !ocultarEsp4' style='background-color: #fc5f65') Ver traducción
       .col-lg-6.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema2/17.jpg', alt='' style='border-radius: 10px')
     .margin-n.p-3.px-5.mb-5(style="background-color: #ffe891")
@@ -472,8 +469,7 @@
           .contenedor-traductor__eng
             p.fst-italic  Since both tenses are related to the past, there can be confusion when choosing which one to use to talk about something that happened… or something that has happened. In this numeral we will see the differences between the present perfect and the simple past, to know when and how to use each of them.
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp4}")
-            //TODO Agregar traducción
-            p 
+            p Debido a que ambos tiempos tienen relación con el pasado, puede existir confusión a la hora de escoger cuál usar para hablar de algo que pasó... o algo que ha pasado. En este numeral, veremos las diferencias entre el presente perfecto y el pasado simple, para saber cuándo y cómo usar cada uno de ellos.
           a.boton-traduccion(@click='ocultarEsp4 = !ocultarEsp4' style='background-color: #fc5f65') Ver traducción
       .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema2/25.png', alt='')
     .margin-n.p-5.mb-5(style="background-color: #a6bbff")
@@ -862,8 +858,7 @@
           .contenedor-traductor__eng
             p.fst-italic  A complex sentence is a sentence that contains more than one clause, usually one independent and at least one dependent clause (sometimes called a subordinate clause). With the present perfect we can form complex sentences if we add a subordinate conjunction and then the other dependent clause (which can be in other verb tense, such as the simple past, the simple present, etc.) that will delve a little more into the information. Next, we can see and listen to some examples.
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp5}")
-            //TODO Agregar traducción
-            p 
+            p Una oración compleja es una oración que contiene más de una cláusula, generalmente una independiente y al menos una cláusula dependiente (a veces llamada cláusula subordinada). Con el presente perfecto, podemos formar frases complejas si agregamos una conjunción subordinada y, luego, la otra oración dependiente (que puede ser en otro tiempo verbal, como el pasado simple, el presente simple, etc.) que va a ahondar un poco más en la información. A continuación, podemos ver y escuchar algunos ejemplos
           a.boton-traduccion(@click='ocultarEsp5 = !ocultarEsp5' style='background-color: #fc5f65') Ver traducción
       .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema2/31.svg', alt='')
     p.mb-5(data-aos='fade-right').text-center 
@@ -907,8 +902,11 @@
               br
               |They can be of different types: time, opposition, cause and effect or condition.
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp6}")
-            //TODO Agregar traducción
-            p 
+            p Las conjunciones subordinantes, al contrario de las conjunciones coordinantes, unen frases que no son de la misma categoría gramatical o sintáctica. Estas conjunciones se usan para unir una oración principal con una subordinada, puesto que esta última no tendría sentido por sí sola.
+              br
+              br
+              |Pueden ser de distinto tipo: tiempo, oposición, causa y efecto o condición.
+
           a.boton-traduccion(@click='ocultarEsp6 = !ocultarEsp6' style='background-color: #fc5f65') Ver traducción
     p.mb-5(data-aos='fade-right').text-center A continuación, podemos estudiar algunas de ellas:
     .margin-n.p-5.mb-5(style="background-color: #fff7da")
@@ -1039,8 +1037,10 @@
           .contenedor-traductor__eng
             p.fst-italic  Although they can sometimes be used with other tenses, we often use the adverbs #[b “just”, “still”, “already”], and #[b “yet”], or the prepositions “since” and “for” with the present perfect tense. These words generally refer to a period of time between the past and now. Let’s see how to use each of them.
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp6}")
-            //TODO Agregar traducción
-            p 
+            p Si bien a veces pueden usarse con otros tiempos verbales, a menudo usamos los adverbios "just", "still", "already" y "yet" o las preposiciones "since" y "for" con el tiempo presente perfecto.
+              br
+              |Estas palabras generalmente se refieren a un periodo de tiempo entre el pasado y el ahora. Veamos cómo usar cada uno de ellos.
+
           a.boton-traduccion(@click='ocultarEsp6 = !ocultarEsp6' style='background-color: #fc5f65') Ver traducción
     p.mb-5(data-aos='fade-right')
       span.r--1 These words generally refer to a period of time between the past and now. Let's see how to use each of them. 
