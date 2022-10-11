@@ -77,59 +77,66 @@
           figure
             img(src='@/assets/curso/temas/tema5/4.svg', alt='Texto que describa la imagen')
         .tarjeta.p-3(x="8.5%" y="90%" numero="+" style='background-color: #f0f4ff ; border: 2px solid #89b1f3')
-          h4.text-center 
-          TarjetaAudio.mb-3(
-            texto="<span class=' w-normal r--b' > </span>"
+          h4.text-center #[em Exclamation sentence] / Frase exclamativa
+          TarjetaAudio.bg-white.color-acento-botones.mb-3(
+            texto="I’m not surprised! / <span class=' fst-normal fw-normal r--b' > ¡No me sorprende!</span>"
             :audio="require('@/assets/curso/audios/tema1/1.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
-          h4
-          p 
+          h5 #[em Emotion they express] / Emoción que expresan
+          p #[em To express displeasure ]/ Para expresar descontento
         .tarjeta.p-3(x="25%" y="90%" numero="+" style='background-color: #f0f4ff ; border: 2px solid #89b1f3')
-          h4.text-center 
-          TarjetaAudio.mb-3(
-            texto="<span class=' w-normal r--b' > </span>"
+          h4.text-center #[em Exclamation sentence] / Frase exclamativa
+          TarjetaAudio.bg-white.color-acento-botones.mb-3(
+            texto="You’re joking? / <span class=' fst-normal fw-normal r--b' >  ¿Estás bromeando? </span>"
             :audio="require('@/assets/curso/audios/tema1/1.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
-          h4
-          p 
+          h5 #[em Emotion they express] / Emoción que expresan
+          p #[em To express surprise / disbelief]
+            br
+            |Para expresar sorpresa / incredulidad
         .tarjeta.p-3(x="41.5%" y="90%" numero="+" style='background-color: #f0f4ff ; border: 2px solid #89b1f3')
-          h4.text-center 
-          TarjetaAudio.mb-3(
-            texto="<span class=' w-normal r--b' > </span>"
+          h4.text-center Exclamation sentence / Frase exclamativa
+          TarjetaAudio.bg-white.color-acento-botones.mb-3(
+            texto="What a nightmare! / <span class=' fst-normal fw-normal r--b' > / ¡Qué pesadilla! </span>"
             :audio="require('@/assets/curso/audios/tema1/1.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
-          h4
-          p 
+          h5 #[em Emotion they express] / Emoción que expresan
+          p #[em To express displeasure] / Para expresar descontento
         .tarjeta.p-3(x="57.9%" y="90%" numero="+" style='background-color: #f0f4ff ; border: 2px solid #89b1f3')
-          h4.text-center 
-          TarjetaAudio.mb-3(
-            texto="<span class=' w-normal r--b' > </span>"
+          h4.text-center Exclamation sentence / Frase exclamativa 
+          TarjetaAudio.bg-white.color-acento-botones.mb-3(
+            texto="I don’t blame you! / <span class=' fst-normal fw-normal r--b' >  ¡No te culpo! </span>"
             :audio="require('@/assets/curso/audios/tema1/1.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
-          h4
-          p 
+          h5 #[em Emotion they express] / Emoción que expresan
+          p #[em To express sympathy] / Para expresar simpatía
         .tarjeta.p-3(x="74.5%" y="90%" numero="+" style='background-color: #f0f4ff ; border: 2px solid #89b1f3')
-          h4.text-center 
-          TarjetaAudio.mb-3(
-            texto="<span class=' w-normal r--b' > </span>"
+          h4.text-center Exclamation sentence / Frase exclamativa
+          TarjetaAudio.bg-white.color-acento-botones.mb-3(
+            texto="Oh, I see what you mean! / <span class=' fst-normal fw-normal r--b' > ¡Oh, ya veo lo que quieres decir! </span>"
             :audio="require('@/assets/curso/audios/tema1/1.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
-          h4
-          p 
+          h5 #[em Emotion they express] / Emoción que expresan
+          p #[em To express sympathy] / Para expresar simpatía
         .tarjeta.p-3(x="91%" y="90%" numero="+" style='background-color: #f0f4ff ; border: 2px solid #89b1f3')
-          h4.text-center 
-          TarjetaAudio.mb-3(
-            texto="<span class=' w-normal r--b' > </span>"
+          h4.text-center Exclamation sentence / Frase exclamativa
+          TarjetaAudio.bg-white.color-acento-botones.mb-3(
+            texto="You can’t be serious! <br> ¡No puedes hablar en serio! / <span class=' fst-normal fw-normal r--b' >¡No puede ser en serio! </span>"
             :audio="require('@/assets/curso/audios/tema1/1.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
-          h4
-          p 
+          h5 #[em Emotion they express] / Emoción que expresan
+          p #[em To express surprise / disbelief]
+            br
+            | Para expresar sorpresa /  incredulidad
+    p.mb-5(data-aos='fade-right')
+      span.r--1 Now let’s see what you have learned so far about the exclamation phrases. Complete the following dialogue. 
+      span.r--g / Ahora veamos lo que ha aprendido hasta el momento sobre las frases de exclamación. Complete el siguiente diálogo.
       
           
 
@@ -181,26 +188,34 @@ export default {
     dialogo: {
       personajes: [
         {
-          nombre: 'Lucas',
-          img: require('@/assets/curso/temas/tema3/lucas.svg'),
+          nombre: 'Kevin',
+          img: require('@/assets/curso/temas/tema5/kevin.svg'),
         },
         {
-          nombre: 'Victoria',
-          img: require('@/assets/curso/temas/tema3/victoria.svg'),
+          nombre: 'Manuela',
+          img: require('@/assets/curso/temas/tema5/manuela.svg'),
         },
       ],
       dialogo: [
         {
-          personaje: 'Lucas',
+          personaje: 'Kevin',
           textoIng:
-            'The moment the ground stopped shaking I knew I wanted to *** back home. I shouldn’t have moved to this city with such seismic activity.',
+            'Yesterday, I had an emergency surgery, which was approved *** thanks to my uncle who works at the hospital. ',
           textoEsp: '',
           audio: require('@/assets/curso/audios/tema1/1.mp3'),
-          palabra: 'go',
+          palabra: 'quickly',
         },
         {
-          personaje: 'Victoria',
-          textoIng: 'What a ***! You should come back.',
+          personaje: 'Manuela',
+          textoIng:
+            '*** you! In the hospital, they sometimes take a long time to assist people.',
+          textoEsp: '',
+          audio: require('@/assets/curso/audios/tema1/1.mp3'),
+          palabra: 'Lucky',
+        },
+        {
+          personaje: 'Kevin',
+          textoIng: 'Yes, what a *** !',
           textoEsp: '',
           audio: require('@/assets/curso/audios/tema1/1.mp3'),
           palabra: 'nightmare',

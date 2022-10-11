@@ -33,7 +33,7 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.justify-content-center.mb-5
       .col-lg-8
-        a.anexo.my-4.mb-lg-0(href="" target="_blank" style='background-color: #3c3fa7')
+        a.anexo.my-4.mb-lg-0(:href="obtenerLink('downloads/doc2.pdf')" target="_blank" style='background-color: #3c3fa7')
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto()

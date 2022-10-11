@@ -23,7 +23,7 @@
             .tarjeta-intro__icon1: img(src='@/assets/curso/portada/a4.svg', alt='')
             .tarjeta-intro__icon2: img(src='@/assets/curso/portada/a5.svg', alt='')
             .tarjeta-intro__cta.mx-5
-              a.anexo.my-4.mb-lg-0(href="" target="_blank" style='background-color: #3c3fa7')
+              a.anexo.my-4.mb-lg-0(:href="obtenerLink('downloads/doc1.pdf')" target="_blank" style='background-color: #3c3fa7')
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto()
