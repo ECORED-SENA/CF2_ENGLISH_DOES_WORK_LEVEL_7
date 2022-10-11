@@ -62,23 +62,44 @@
 // Span color //
 span.r
   &--1
-    color: $color-primario
+    color: $color-primario !important
     b
       color: $color-primario
   &--2
-    color: $color-secundario
+    color: $color-secundario !important
     b
       color: $color-secundario
   &--3
-    color: $color-acento-contenido
+    color: $color-acento-contenido  !important
     b
       color: $color-acento-contenido
   &--4
-    color: $color-acento-botones
+    color: $color-acento-botones !important
+    b
+      color: $color-acento-botones
+  &--5
+    color: #8284d2
+  &--g
+    color: #777777
+  &--b
+    color: #12263f !important
+span.f
+  &--1
+    background-color: $color-primario
+    b
+      color: $color-primario
+  &--2
+    background-color: $color-secundario
+    color: $color-sistema-texto 
+    padding: 2px 5px
+  &--3
+    background-color: $color-acento-contenido
+  &--4
+    background-color: $color-acento-botones
     b
       color: $color-acento-botones
   &--g
-    color: #777777
+    background-color: #777777
 
 // Contenedor traductor ////R
 .contenedor-traductor
@@ -135,3 +156,44 @@ span.r
       left: 0
       bottom: 0
       transform: translate(5%,40%)
+.audio-blue
+
+  .tarjeta-audio.color-acento-botones .tarjeta-audio__texto
+    color: $color-primario
+
+.dots-4
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: $color-acento-botones
+    opacity: 1
+    background-image: url(../assets/curso/temas/tema2/arrow-white.svg)
+.bg--3
+  background-color: #a6bbff
+  transition: background-color 0.2s ease-in-out
+  &:hover
+    background-color: #3c3fa7
+
+.slyder-100
+  .horizontal-scroll
+    align-items: normal !important
+
+.slyder-f__btn
+  i
+    font-size: 40px
+  .fa-chevron-right:before
+        transform: scaleX(-1)
+        color: $color-acento-botones
+        
+        content: "\f138"
+  .fa-chevron-left:before
+        color: $color-acento-botones
+        width: 37px
+        content: "\f137"
+.acordion__accion__btn--b
+  background-color: $color-acento-botones
+  border: 0px
+  i 
+    color: white
+.bg-rojo
+  background-color: #ffdfe0
+.dialogo__chat__item__message__translate-btn
+  display: none
