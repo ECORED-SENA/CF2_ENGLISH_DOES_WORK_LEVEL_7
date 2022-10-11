@@ -32,13 +32,13 @@
               .col-lg-6
                 TarjetaAudio.no-input.mb-3(
                     texto="<b>Lucas:</b> Hello, Victoria. I’m calling you because I’m really scared and I need to talk to someone. Something very shocking has happened to me."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema3/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     style='background-color: #cad3f2; border: 0px'
                   )
                 TarjetaAudio.no-input.mb-3(
                     texto="<b>Victoria:</b> Hi, Lucas. What happened? Are you okay?"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema3/2.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     style='background-color: #fff0b5; border: 0px'
                   )
@@ -47,13 +47,13 @@
               .col-lg-6
                 TarjetaAudio.no-input.mb-3(
                     texto="<b>Lucas:</b> I have just experienced the worst earthquake of my life, I’m sure you’ll hear about it on the news.<br><br> The floor and the walls shook strongly, I thought the house was going to collapse."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema3/3.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     style='background-color: #cad3f2; border: 0px'
                   )
                 TarjetaAudio.no-input.mb-3(
                     texto="<b>Victoria:</b> Oh, my God! And what happened next?"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema3/4.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     style='background-color: #fff0b5; border: 0px'
                   )
@@ -181,14 +181,14 @@ export default {
           textoIng:
             'The moment the ground stopped shaking I knew I wanted to *** back home. I shouldn’t have moved to this city with such seismic activity.',
           textoEsp: '',
-          audio: require('@/assets/curso/audios/tema1/1.mp3'),
+          audio: require('@/assets/curso/audios/tema3/lucas.mp3'),
           palabra: 'go',
         },
         {
           personaje: 'Victoria',
           textoIng: 'What a ***! You should come back.',
           textoEsp: '',
-          audio: require('@/assets/curso/audios/tema1/1.mp3'),
+          audio: require('@/assets/curso/audios/tema3/victoria.mp3'),
           palabra: 'nightmare',
         },
       ],

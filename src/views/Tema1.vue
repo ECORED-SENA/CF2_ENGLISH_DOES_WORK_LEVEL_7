@@ -44,21 +44,27 @@
                       )
                       TarjetaAudio.no-input.mb-3(
                         texto="<b>Sonia:</b> Actually, yes, I have. I sang in the talent show of “The Great Night Show”, a very popular television program in the 80s."
-                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema1/4.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         style='background-color: #fff0b5; border: 0px'
+                      )
+                      TarjetaAudio.no-input.mb-3(
+                        texto="Wow, that’s amazing! I have never sung in public or been on tv. You have had a very interesting life. Tell me, what other exciting events have you experienced?"
+                        :audio="require('@/assets/curso/audios/tema1/2.mp3')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                        style='background-color: #cad3f2; border: 0px'
                       )
                     div
                       p.text-center.fw-bold #[em Thematic Dialogue]  / Diálogo Temático
                       TarjetaAudio.no-input.mb-3(
                         texto="Well, Pedro, one of the strangest and most exciting things I’ve experienced was when I almost won the lottery… all the numbers on the ticket came out, except for the last one. My heart nearly jumped out of my chest!"
-                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema1/5.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         style='background-color: #fff0b5; border: 0px'
                       )
                       TarjetaAudio.no-input.mb-3(
                         texto="I can imagine!"
-                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema1/3.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         style='background-color: #cad3f2; border: 0px'
                       )
@@ -75,84 +81,84 @@
                   SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
                     .bg-sf.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image':`url(${require('@/assets/curso/temas/tema1/5.jpg')})`}")(style='height: 348px')
                       .tarjeta.bg-white.p-2.d-flex.justify-content-center.flex-column
-                        Audio.color-acento-botones.d-block(:audio="require('@/assets/curso/audios/tema1/1.mp3')").m-auto.mb-2
+                        Audio.color-acento-botones.d-block(:audio="require('@/assets/curso/audios/tema1/6.mp3')").m-auto.mb-2
                         p.text-center 
                           span.r--4.fw-bold Win the lottery
                           br
                           | Ganar la lotería
                     .bg-sf.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image':`url(${require('@/assets/curso/temas/tema1/6.jpg')})`}")(style='height: 348px')
                       .tarjeta.bg-white.p-2.d-flex.justify-content-center.flex-column
-                        Audio.color-acento-botones.d-block(:audio="require('@/assets/curso/audios/tema1/1.mp3')").m-auto.mb-2
+                        Audio.color-acento-botones.d-block(:audio="require('@/assets/curso/audios/tema1/7.mp3')").m-auto.mb-2
                         p.text-center 
                           span.r--4.fw-bold Be on T.V. 
                           br
                           | Estar o aparecer en televisión
                     .bg-sf.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image':`url(${require('@/assets/curso/temas/tema1/7.jpg')})`}")(style='height: 348px')
                       .tarjeta.bg-white.p-2.d-flex.justify-content-center.flex-column
-                        Audio.color-acento-botones.d-block(:audio="require('@/assets/curso/audios/tema1/1.mp3')").m-auto.mb-2
+                        Audio.color-acento-botones.d-block(:audio="require('@/assets/curso/audios/tema1/8.mp3')").m-auto.mb-2
                         p.text-center 
                           span.r--4.fw-bold Live abroad 
                           br
                           | Vivir en el exterior
                     .bg-sf.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image':`url(${require('@/assets/curso/temas/tema1/8.jpg')})`}")(style='height: 348px')
                       .tarjeta.bg-white.p-2.d-flex.justify-content-center.flex-column
-                        Audio.color-acento-botones.d-block(:audio="require('@/assets/curso/audios/tema1/1.mp3')").m-auto.mb-2
+                        Audio.color-acento-botones.d-block(:audio="require('@/assets/curso/audios/tema1/9.mp3')").m-auto.mb-2
                         p.text-center 
                           span.r--4.fw-bold Fall in love
                           br
                           | Enamorarse
                     .bg-sf.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image':`url(${require('@/assets/curso/temas/tema1/9.jpg')})`}")(style='height: 348px')
                       .tarjeta.bg-white.p-2.d-flex.justify-content-center.flex-column
-                        Audio.color-acento-botones.d-block(:audio="require('@/assets/curso/audios/tema1/1.mp3')").m-auto.mb-2
+                        Audio.color-acento-botones.d-block(:audio="require('@/assets/curso/audios/tema1/10.mp3')").m-auto.mb-2
                         p.text-center 
                           span.r--4.fw-bold Break a bone
                           br
                           | Romperse un hueso
                     .bg-sf.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image':`url(${require('@/assets/curso/temas/tema1/10.jpg')})`}")(style='height: 348px')
                       .tarjeta.bg-white.p-2.d-flex.justify-content-center.flex-column
-                        Audio.color-acento-botones.d-block(:audio="require('@/assets/curso/audios/tema1/1.mp3')").m-auto.mb-2
+                        Audio.color-acento-botones.d-block(:audio="require('@/assets/curso/audios/tema1/11.mp3')").m-auto.mb-2
                         p.text-center 
                           span.r--4.fw-bold Have an accident
                           br
                           | Tener un accidente
                     .bg-sf.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image':`url(${require('@/assets/curso/temas/tema1/11.jpg')})`}")(style='height: 348px')
                       .tarjeta.bg-white.p-2.d-flex.justify-content-center.flex-column
-                        Audio.color-acento-botones.d-block(:audio="require('@/assets/curso/audios/tema1/1.mp3')").m-auto.mb-2
+                        Audio.color-acento-botones.d-block(:audio="require('@/assets/curso/audios/tema1/12.mp3')").m-auto.mb-2
                         p.text-center 
                           span.r--4.fw-bold Sing in public 
                           br
                           |  Cantar en público
                     .bg-sf.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image':`url(${require('@/assets/curso/temas/tema1/12.jpg')})`}")(style='height: 348px')
                       .tarjeta.bg-white.p-2.d-flex.justify-content-center.flex-column
-                        Audio.color-acento-botones.d-block(:audio="require('@/assets/curso/audios/tema1/1.mp3')").m-auto.mb-2
+                        Audio.color-acento-botones.d-block(:audio="require('@/assets/curso/audios/tema1/13.mp3')").m-auto.mb-2
                         p.text-center 
                           span.r--4.fw-bold Get married 
                           br
                           |  Casarse
                     .bg-sf.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image':`url(${require('@/assets/curso/temas/tema1/13.jpg')})`}")(style='height: 348px')
                       .tarjeta.bg-white.p-2.d-flex.justify-content-center.flex-column
-                        Audio.color-acento-botones.d-block(:audio="require('@/assets/curso/audios/tema1/1.mp3')").m-auto.mb-2
+                        Audio.color-acento-botones.d-block(:audio="require('@/assets/curso/audios/tema1/14.mp3')").m-auto.mb-2
                         p.text-center 
                           span.r--4.fw-bold Experience an earthquake 
                           br
                           | Experimentar un terremoto
                     .bg-sf.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image':`url(${require('@/assets/curso/temas/tema1/14.jpg')})`}")(style='height: 348px')
                       .tarjeta.bg-white.p-2.d-flex.justify-content-center.flex-column
-                        Audio.color-acento-botones.d-block(:audio="require('@/assets/curso/audios/tema1/1.mp3')").m-auto.mb-2
+                        Audio.color-acento-botones.d-block(:audio="require('@/assets/curso/audios/tema1/15.mp3')").m-auto.mb-2
                         p.text-center 
                           span.r--4.fw-bold Do volunteer work 
                           br
                           | Hacer trabajo voluntario
                     .bg-sf.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image':`url(${require('@/assets/curso/temas/tema1/15.jpg')})`}")(style='height: 348px')
                       .tarjeta.bg-white.p-2.d-flex.justify-content-center.flex-column
-                        Audio.color-acento-botones.d-block(:audio="require('@/assets/curso/audios/tema1/1.mp3')").m-auto.mb-2
+                        Audio.color-acento-botones.d-block(:audio="require('@/assets/curso/audios/tema1/16.mp3')").m-auto.mb-2
                         p.text-center 
                           span.r--4.fw-bold Lose a loved one
                           br
                           | Perder un ser querido
                     .bg-sf.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image':`url(${require('@/assets/curso/temas/tema1/16.jpg')})`}")(style='height: 348px')
                       .tarjeta.bg-white.p-2.d-flex.justify-content-center.flex-column
-                        Audio.color-acento-botones.d-block(:audio="require('@/assets/curso/audios/tema1/1.mp3')").m-auto.mb-2
+                        Audio.color-acento-botones.d-block(:audio="require('@/assets/curso/audios/tema1/17.mp3')").m-auto.mb-2
                         p.text-center 
                           span.r--4.fw-bold Have a surgery
                           br
@@ -191,7 +197,7 @@ export default {
           textoIng:
             'Now tell me, ¿what *** been the most memorable day of your life?',
           textoEsp: 'Yo necesito el libro de biologia y las diapositivas.',
-          audio: require('@/assets/curso/audios/tema1/1.mp3'),
+          audio: require('@/assets/curso/audios/tema1/sonia.mp3'),
           palabra: 'has',
         },
         {
@@ -199,7 +205,7 @@ export default {
           textoIng:
             'My life hasn’t been as exciting as yours, but I think that the most memorable day of my life was when I *** married to my wife.',
           textoEsp: '',
-          audio: require('@/assets/curso/audios/tema1/1.mp3'),
+          audio: require('@/assets/curso/audios/tema1/pedro.mp3'),
           palabra: 'got',
         },
       ],

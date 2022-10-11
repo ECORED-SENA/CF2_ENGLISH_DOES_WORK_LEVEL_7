@@ -40,14 +40,14 @@
               img(src='@/assets/curso/temas/tema4/2.jpg', alt='Texto que describa la imagen' style='border-radius: 10px').mb-4
             TarjetaAudio.bg-white.color-acento-botones.mb-3(
               texto="“Susana is <span class= r--1>faster</span> than David.” <span class= r--1>(comparative adjective)</span>"
-              :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+              :audio="require('@/assets/curso/audios/tema4/1.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
               
               )
             p.ms-4 “Susana es #[b más rápida] que David”. #[b (adjetivo comparativo)]
             TarjetaAudio.bg-white.color-acento-botones.mb-3(
               texto="“Susana skates <span class= r--1>faster</span> than David.” <span class= r--1>(comparative adverb)</span>"
-              :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+              :audio="require('@/assets/curso/audios/tema4/2.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
               
               )
@@ -60,7 +60,7 @@
               img(src='@/assets/curso/temas/tema4/3.jpg', alt='Texto que describa la imagen' style='border-radius: 10px').mb-4
             TarjetaAudio.bg-white.color-acento-botones.mb-3(
               texto="“Susana is <span class= r--1>more careful</span> than David in her work.” <span class= r--1>(comparative adjective)</span>"
-              :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+              :audio="require('@/assets/curso/audios/tema4/3.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
               
               )
@@ -68,7 +68,7 @@
     
             TarjetaAudio.bg-white.color-acento-botones.mb-3(
               texto="“Susana works <span class= r--1>more carefully</span> than David.” <span class= r--1>(comparative adverb)</span>"
-              :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+              :audio="require('@/assets/curso/audios/tema4/4.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
               
               )
@@ -94,13 +94,13 @@
                       p.text-center.fw-bold #[em Thematic Dialogue]  / Diálogo Temático
                       TarjetaAudio.no-input.mb-3(
                         texto="<b>Lorenzo:</b> Hello, Camila. How has your volunteer work been?"
-                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema4/5.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         style='background-color: #cad3f2; border: 0px'
                       )
                       TarjetaAudio.no-input.mb-3(
                         texto="<b>Camila:</b> Great! I have worked hard to help build a school."
-                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema4/6.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         style='background-color: #fff0b5; border: 0px'
                       )
@@ -108,13 +108,13 @@
                       p.text-center.fw-bold #[em Thematic Dialogue]  / Diálogo Temático
                       TarjetaAudio.no-input.mb-3(
                         texto="Really? I congratulate you for that work. But, tell me, what happened to your hand?"
-                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema4/7.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         style='background-color: #fff0b5; border: 0px'
                       )
                       TarjetaAudio.no-input.mb-3(
                         texto="I hurt myself pounding down a nail. I must hammer more carefully next time."
-                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema4/8.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         style='background-color: #cad3f2; border: 0px'
                       )
@@ -207,14 +207,14 @@
                 .col-lg-6 
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto=" slow / slowly (regular adverb)"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema4/9.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                   p.ms-4  lento → lentamente (adverbio regular)
                 .col-lg-6 
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="good / well (irregular adverb)"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema4/10.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                   p.ms-4  bueno → bien (adverbio irregular)
@@ -274,14 +274,14 @@
                   td
                     TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="Easy / Easily"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema4/11.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 Fácil → Fácilmente
                   td
                     TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="more / less easily"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema4/12.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 más / menos fácilmente
@@ -289,14 +289,14 @@
                   td 
                     TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="Angry / Angrily"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema4/13.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 Enfadado/a  / Furiosamente
                   td 
                     TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="more / less angrily"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema4/14.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 más / menos furiosamente
@@ -329,14 +329,14 @@
                   td
                     TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="Tragic / Tragically"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema4/15.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 Trágico / Trágicamente
                   td
                     TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="more / less tragically"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema4/16.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 más / menos trágicamente
@@ -344,14 +344,14 @@
                   td 
                     TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="Magic / Magically"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema4/17.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 Mágico / Mágicamente
                   td 
                     TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="more / less magically"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema4/18.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 más / menos trágicamente
@@ -384,14 +384,14 @@
                   td
                     TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="Horrible / Horribly"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema4/19.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 Horrible / Horriblemente
                   td
                     TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="more/less horribly"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema4/20.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 de una manera más/menos horrible
@@ -399,14 +399,14 @@
                   td 
                     TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="Terrible / Terribly"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema4/21.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 Terrible / Terriblemente
                   td 
                     TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="more/less terribly"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema4/22.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 de una manera más/menos terrible
@@ -439,14 +439,14 @@
                   td
                     TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="Beautiful / Beautifully"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema4/23.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 Bonita/ol / Hermosamente
                   td
                     TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="more/less beautifully"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema4/24.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 de una manera más/menos hermosa
@@ -454,14 +454,14 @@
                   td 
                     TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="Generall / Generally"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema4/25.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 General / Generalmente
                   td 
                     TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="more/less generally"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema4/26.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 más/menos generalmente
@@ -495,14 +495,14 @@
                   td
                     TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="Fast / Fast"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema4/27.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 Rápido / Rápidamente
                   td
                     TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="faster / less fast"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema4/28.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 más rápidamente / de una forma menos rápida
@@ -513,14 +513,14 @@
                   td
                     TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="Hard / Hard"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema4/29.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 Duro / Duramente
                   td
                     TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="harder / less hard"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema4/30.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 de una forma más/menos fuerte
@@ -550,14 +550,14 @@
                   td
                     TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="Good / Well"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema4/31.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 Bueno / Bien
                   td
                     TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="Better"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema4/32.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 mejor
@@ -616,7 +616,7 @@ export default {
           textoIng:
             'What do you think will happen when the construction of the *** is finished?',
           textoEsp: '',
-          audio: require('@/assets/curso/audios/tema1/1.mp3'),
+          audio: require('@/assets/curso/audios/tema4/lorenzo.mp3'),
           palabra: 'school',
         },
         {
@@ -624,7 +624,7 @@ export default {
           textoIng:
             'I hope that the kids begin studying, and that they will learn new things *** in their new school.',
           textoEsp: '',
-          audio: require('@/assets/curso/audios/tema1/1.mp3'),
+          audio: require('@/assets/curso/audios/tema4/camila.mp3'),
           palabra: 'safely',
         },
       ],

@@ -52,13 +52,13 @@
               .col-lg-6(data-aos="fade-left")
                   TarjetaAudio.no-input.mb-3(
                     texto="<b>Son:</b> Mom, tell me about you and dad. How has your love story been?"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     style='background-color: #cad3f2; border: 0px'
                   )
                   TarjetaAudio.no-input.mb-3(
                     texto="<b>Mom:</b> Well, son, he and I met at school, when we were 13, but we’ve been together since we were 18, when we fell in love. The next year, we got married, moved to the United States and lived abroad for over 20 years before coming back to our hometown."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/2.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     style='background-color: #fff0b5; border: 0px'
                   )
@@ -66,13 +66,13 @@
               .col-lg-6(data-aos="fade-left")
                   TarjetaAudio.no-input.mb-3(
                     texto="<b>Son:</b> You have known each other for almost your entire life."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/3.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     style='background-color: #cad3f2; border: 0px'
                   )
                   TarjetaAudio.no-input.mb-3(
                     texto="<b>Mom:</b> Yes, we have lived together for over 40 years and haven’t spent a single day apart."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/4.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     style='background-color: #fff0b5; border: 0px'
                   )
@@ -137,7 +137,7 @@
                   .col-lg-6
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="<span class=  r--4 >I</span> <span class=  r--3 >have</span> <span class=  f--2 >lived</span> in Colombia since 1997."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/5.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
@@ -147,7 +147,7 @@
                   .col-lg-6
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="<span class=  r--4 >He</span> <span class=  r--3 >has </span> <span class=  f--2 >lived</span> abroad for 15 years."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/6.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
@@ -167,7 +167,7 @@
                   .col-lg-6
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="<span class=  r--4 >I</span> <span class=  r--3 >haven’t </span> <span class=  f--2 >lived</span> in Colombia since 1997."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/7.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
@@ -177,7 +177,7 @@
                   .col-lg-6
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="<span class=  r--4 >He</span> <span class=  r--3 >hasn’t</span> <span class=  f--2 >lived</span> abroad for 15 years."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/8.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
@@ -197,7 +197,7 @@
                   .col-lg-6
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="<span class=  r--3 >Have</span> <span class=  r--4 >I</span> <span class=  f--2 >lived</span> in Colombia since 1997?"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/9.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
@@ -207,7 +207,7 @@
                   .col-lg-6
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="<span class=  r--3 >Has</span> <span class=  r--4 >he </span> <span class=  f--2 >lived</span> abroad for 15 years?"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/10.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
@@ -227,7 +227,7 @@
                   .col-lg-6
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="<span class=  r--3 >Where</span> <span class=  r--5 >have</span> <span class=  r--4 >I</span> <span class=  f--2 >lived</span> since 1997?"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/11.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
@@ -237,7 +237,7 @@
                   .col-lg-6
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="<span class=  r--3 >Why</span> <span class=  r--5 >has</span> <span class=  r--4 >he</span> <span class=  f--2 >lived</span> abroad for 15 years?"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/12.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
@@ -274,21 +274,21 @@
                   .col-lg-4.mb-lg-0.mb-3
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Susy has worked here since 2019."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
                   .col-lg-4.mb-lg-0.mb-3
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="They have not paid any rent for several months."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
                   .col-lg-4
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Caroline has practiced swimming in this pool since she was little."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
@@ -308,21 +308,21 @@
                   .col-lg-4.mb-lg-0.mb-3
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Frank has gone to Brazil."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
                   .col-lg-4.mb-lg-0.mb-3
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Lia has lost her Ipod."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
                   .col-lg-4
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="They have climbed that mountain together."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
@@ -342,21 +342,21 @@
                   .col-lg-4.mb-lg-0.mb-3
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Carol and Sue have gone to the gym once a week."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
                   .col-lg-4.mb-lg-0.mb-3
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Mario has looked for a job this month."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
                   .col-lg-4
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="They have been in line to pay for public services."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
@@ -376,21 +376,21 @@
                   .col-lg-4.mb-lg-0.mb-3
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Paul and Linda have gone to the movies several times."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
                   .col-lg-4.mb-lg-0.mb-3
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Julia has visited the theater at every premiere of a play."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
                   .col-lg-4
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Sara has talked to her son about sexuality several times."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
@@ -410,21 +410,21 @@
                   .col-lg-4.mb-lg-0.mb-3
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Joseph has fixed his car just now. "
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
                   .col-lg-4.mb-lg-0.mb-3
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="They have ended their relationship just this week."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
                   .col-lg-4
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Mary has just finished her housework at home."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
@@ -444,21 +444,21 @@
                   .col-lg-4.mb-lg-0.mb-3
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="I have lived near famous movie stars."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
                   .col-lg-4.mb-lg-0.mb-3
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Debbie has studied in Harvard for her Law degree."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
                   .col-lg-4
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Donald has won the lottery."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
@@ -502,28 +502,28 @@
                     .d-flex.justify-content-center
                       TarjetaAudio.bg-white.color-acento-botones.mb-2(
                         texto="Ever / Never"
-                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema2/31.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
                     .d-flex.justify-content-center
                       TarjetaAudio.bg-white.color-acento-botones.mb-2(
                         texto="Since "
-                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema2/32.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
                     .d-flex.justify-content-center
                       TarjetaAudio.bg-white.color-acento-botones.mb-2(
                         texto="Still"
-                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema2/33.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
                     .d-flex.justify-content-center
                       TarjetaAudio.bg-white.color-acento-botones.mb-2(
                         texto="Yet"
-                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema2/34.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
@@ -535,21 +535,21 @@
                     .d-flex.justify-content-center
                       TarjetaAudio.bg-white.color-acento-botones.mb-2(
                         texto="Last….."
-                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema2/35.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
                     .d-flex.justify-content-center
                       TarjetaAudio.bg-white.color-acento-botones.mb-2(
                         texto="…ago"
-                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema2/36.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
                     .d-flex.justify-content-center
                       TarjetaAudio.bg-white.color-acento-botones.mb-2(
                         texto="Yesterday"
-                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema2/37.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
@@ -574,7 +574,7 @@
                     .d-flex.justify-content-center
                       TarjetaAudio.bg-white.color-acento-botones.mb-3(
                         texto="She bought a new house 3 months ago. / <span class= 'r--b fw-normal fst-normal' > Ella compró una casa nueva hace 3 meses.</span>"
-                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema2/45.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
@@ -593,7 +593,7 @@
                     .d-flex.justify-content-center
                       TarjetaAudio.bg-white.color-acento-botones.mb-3(
                         texto="I called him an hour ago. <span class= 'r--b fw-normal fst-normal' > / Lo llamé hace una hora.</span>"
-                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema2/47.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
@@ -616,7 +616,7 @@
 
                     TarjetaAudio.bg-white.color-acento-botones.mb-3(
                         texto="She has bought a new house. <span class= 'r--b fw-normal fst-normal' > / Ella ha comprado una casa nueva.</span>"
-                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema2/44.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
@@ -632,7 +632,7 @@
                       span.r--g Por ejemplo: 
                     TarjetaAudio.bg-white.color-acento-botones.mb-3(
                         texto="She bought a new house 3 months ago. <span class= 'r--b fw-normal fst-normal' > / Ella compró una casa nueva hace 3 meses.</span>"
-                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema2/45.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
@@ -651,38 +651,38 @@
                       .col-lg-6
                         TarjetaAudio.bg-white.color-acento-botones.mb-2(
                           texto="I have eaten."
-                          :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                          :audio="require('@/assets/curso/audios/tema2/38.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                           
                           )
                         TarjetaAudio.bg-white.color-acento-botones.mb-2(
                           texto="I haven’t eaten."
-                          :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                          :audio="require('@/assets/curso/audios/tema2/39.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                           
                           )
                         TarjetaAudio.bg-white.color-acento-botones.mb-2(
                           texto="Have I eaten?"
-                          :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                          :audio="require('@/assets/curso/audios/tema2/40.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                           
                           )
                       .col-lg-6
                         TarjetaAudio.bg-white.color-acento-botones.mb-2(
                           texto="She has eaten."
-                          :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                          :audio="require('@/assets/curso/audios/tema2/1.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                           
                           )
                         TarjetaAudio.bg-white.color-acento-botones.mb-2(
                           texto="She hasn’t eaten."
-                          :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                          :audio="require('@/assets/curso/audios/tema2/2.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                           
                           )
                         TarjetaAudio.bg-white.color-acento-botones.mb-2(
                           texto="Has she eaten?"
-                          :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                          :audio="require('@/assets/curso/audios/tema2/3.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                           
                           )
@@ -695,38 +695,38 @@
                       .col-lg-6
                         TarjetaAudio.bg-white.color-acento-botones.mb-3(
                           texto="I ate."
-                          :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                          :audio="require('@/assets/curso/audios/tema2/41.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                           
                           )
                         TarjetaAudio.bg-white.color-acento-botones.mb-3(
                           texto="I didn’t eat."
-                          :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                          :audio="require('@/assets/curso/audios/tema2/42.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                           
                           )
                         TarjetaAudio.bg-white.color-acento-botones.mb-3(
                           texto="Did I eat?"
-                          :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                          :audio="require('@/assets/curso/audios/tema2/43.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                           
                           )
                       .col-lg-6
                         TarjetaAudio.bg-white.color-acento-botones.mb-3(
                           texto="She ate."
-                          :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                          :audio="require('@/assets/curso/audios/tema2/1.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                           
                           )
                         TarjetaAudio.bg-white.color-acento-botones.mb-3(
                           texto="She didn’t eat."
-                          :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                          :audio="require('@/assets/curso/audios/tema2/1.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                           
                           )
                         TarjetaAudio.bg-white.color-acento-botones.mb-3(
                           texto="Did she eat?"
-                          :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                          :audio="require('@/assets/curso/audios/tema2/1.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                           
                           )
@@ -749,7 +749,7 @@
 
                     TarjetaAudio.bg-white.color-acento-botones.mb-3(
                         texto="Sandra has been in the clinic for two days. (She is still in the clinic)  <span class= 'r--b fw-normal fst-normal' > / Sandra ha estado en la clínica durante dos días. (Ella todavía está en la clínica) </span>"
-                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema2/48.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
@@ -766,7 +766,7 @@
 
                     TarjetaAudio.bg-white.color-acento-botones.mb-3(
                         texto="Sandra was in the clinic for two days. <span class= 'r--b fw-normal fst-normal' > / / Sandra estuvo dos días en la clínica.</span>"
-                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema2/49.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
@@ -791,7 +791,7 @@
                     .d-flex.justify-content-center
                       TarjetaAudio.bg-white.color-acento-botones.mb-3(
                         texto="The nurse has written three prescriptions this morning. (It is still morning) <span class= 'r--b fw-normal fst-normal' > / La enfermera ha escrito tres recetas esta mañana. (Todavía es de mañana)</span>"
-                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema2/50.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
@@ -810,7 +810,7 @@
                     .d-flex.justify-content-center
                       TarjetaAudio.bg-white.color-acento-botones.mb-3(
                         texto="The nurse wrote three prescriptions this morning. (The morning is over) <span class= 'r--b fw-normal fst-normal' > / La enfermera escribió tres recetas esta mañana. (La mañana ha terminado) </span>"
-                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema2/51.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
@@ -833,7 +833,7 @@
                     .d-flex.justify-content-center
                       TarjetaAudio.bg-white.color-acento-botones.mb-3(
                         texto="The US space shuttle Atlantis has returned safely to earth.  <span class= 'r--b fw-normal fst-normal' > / El transbordador espacial estadounidense Atlantis ha regresado sano y salvo a la Tierra.</span>"
-                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema2/52.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
@@ -850,7 +850,7 @@
                     .d-flex.justify-content-center
                       TarjetaAudio.bg-white.color-acento-botones.mb-3(
                         texto="The US space shuttle Atlantis landed in Florida this morning. <span class= 'r--b fw-normal fst-normal' > / El transbordador espacial estadounidense Atlantis aterrizó en Florida esta mañana. </span>"
-                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema2/53.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
@@ -879,7 +879,7 @@
               img(src='@/assets/curso/temas/tema2/32.jpg', alt='Texto que describa la imagen').mb-4
             TarjetaAudio.bg-white.color-acento-botones.mb-3(
               texto="She has been in the hospital for 3 days <span class= r--1>because</span> she caught a very strong flu"
-              :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+              :audio="require('@/assets/curso/audios/tema2/54.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
               
               )
@@ -892,7 +892,7 @@
               img(src='@/assets/curso/temas/tema2/33.jpg', alt='Texto que describa la imagen').mb-4
             TarjetaAudio.bg-white.color-acento-botones.mb-3(
               texto="I have eaten exotic dishes <span class= r--1 > while</span> my business partner and I travel for work. "
-              :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+              :audio="require('@/assets/curso/audios/tema2/55.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
               
               )
@@ -1059,7 +1059,7 @@
                 .col-lg-7
                     TarjetaAudio.bg-white.color-acento-botones.mb-3(
                       texto="I’ve <span class= r--1> just</span> seen Sara with Marco."
-                      :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/audios/tema2/56.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       
                       )
@@ -1076,7 +1076,7 @@
                 .col-lg-7
                     TarjetaAudio.bg-white.color-acento-botones.mb-3(
                       texto="I <span class= r--1> still </span> haven’t called Gloria to see how she is."
-                      :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/audios/tema2/58.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       
                       )
@@ -1093,7 +1093,7 @@
                 .col-lg-7
                     TarjetaAudio.bg-white.color-acento-botones.mb-3(
                       texto=" I’ve <span class= r--1> already</span> had lunch at home."
-                      :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/audios/tema2/57.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       
                       )
@@ -1117,7 +1117,7 @@
                 .col-lg-7
                     TarjetaAudio.bg-white.color-acento-botones.mb-3(
                       texto="We haven’t decided what to do <span class= r--1> yet. </span>"
-                      :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/audios/tema2/59.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       
                       )
@@ -1134,7 +1134,7 @@
                 .col-lg-7
                     TarjetaAudio.bg-white.color-acento-botones.mb-3(
                       texto="They have traveled the world <span class= r--1> for </span> 2 years."
-                      :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/audios/tema2/60.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       
                       )
@@ -1151,7 +1151,7 @@
                 .col-lg-7
                     TarjetaAudio.bg-white.color-acento-botones.mb-3(
                       texto="He has been here <span class= r--1> since </span> 9 am."
-                      :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/audios/tema2/61.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       
                       )
@@ -1199,7 +1199,7 @@ export default {
           textoIng:
             'And what has *** the most difficult moment in your marriage?',
           textoEsp: 'Yo necesito el libro de biologia y las diapositivas.',
-          audio: require('@/assets/curso/audios/tema1/1.mp3'),
+          audio: require('@/assets/curso/audios/tema2/son.mp3'),
           palabra: 'been',
         },
         {
@@ -1207,7 +1207,7 @@ export default {
           textoIng:
             'Probably, when your grandmother died, your dad’s mother. It is very sad to lose a loved one, and in times like those we *** supported each other as a couple. It hasn’t been easy being together for so long.',
           textoEsp: '',
-          audio: require('@/assets/curso/audios/tema1/1.mp3'),
+          audio: require('@/assets/curso/audios/tema2/mom.mp3'),
           palabra: 'have',
         },
       ],

@@ -39,13 +39,13 @@
               .col-lg-6
                 TarjetaAudio.no-input.mb-3(
                     texto="<b> Kevin:</b> Manuela, I haven’t sent you my part of the group project because yesterday I broke my arm in three pieces."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema5/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     style='background-color: #cad3f2; border: 0px'
                   )
                 TarjetaAudio.no-input.mb-3(
                     texto="<b> Manuela:</b> You can’t be serious! What happened?"
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema5/2.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     style='background-color: #fff0b5; border: 0px'
                   )
@@ -54,13 +54,13 @@
               .col-lg-6
                 TarjetaAudio.no-input.mb-3(
                     texto="<b> Kevin:</b> I had an accident at home. I slipped and rolled down the stairs."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema5/3.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     style='background-color: #cad3f2; border: 0px'
                   )
                 TarjetaAudio.no-input.mb-3(
                     texto="<b> Manuela:</b> Sounds awful! I hope you feel better today."
-                    :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema5/4.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     style='background-color: #fff0b5; border: 0px'
                   )
@@ -80,7 +80,7 @@
           h4.text-center #[em Exclamation sentence] / Frase exclamativa
           TarjetaAudio.bg-white.color-acento-botones.mb-3(
             texto="I’m not surprised! / <span class=' fst-normal fw-normal r--b' > ¡No me sorprende!</span>"
-            :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+            :audio="require('@/assets/curso/audios/tema5/5.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           h5 #[em Emotion they express] / Emoción que expresan
@@ -89,7 +89,7 @@
           h4.text-center #[em Exclamation sentence] / Frase exclamativa
           TarjetaAudio.bg-white.color-acento-botones.mb-3(
             texto="You’re joking? / <span class=' fst-normal fw-normal r--b' >  ¿Estás bromeando? </span>"
-            :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+            :audio="require('@/assets/curso/audios/tema5/6.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           h5 #[em Emotion they express] / Emoción que expresan
@@ -100,7 +100,7 @@
           h4.text-center Exclamation sentence / Frase exclamativa
           TarjetaAudio.bg-white.color-acento-botones.mb-3(
             texto="What a nightmare! / <span class=' fst-normal fw-normal r--b' > / ¡Qué pesadilla! </span>"
-            :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+            :audio="require('@/assets/curso/audios/tema5/7.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           h5 #[em Emotion they express] / Emoción que expresan
@@ -109,7 +109,7 @@
           h4.text-center Exclamation sentence / Frase exclamativa 
           TarjetaAudio.bg-white.color-acento-botones.mb-3(
             texto="I don’t blame you! / <span class=' fst-normal fw-normal r--b' >  ¡No te culpo! </span>"
-            :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+            :audio="require('@/assets/curso/audios/tema5/8.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           h5 #[em Emotion they express] / Emoción que expresan
@@ -118,7 +118,7 @@
           h4.text-center Exclamation sentence / Frase exclamativa
           TarjetaAudio.bg-white.color-acento-botones.mb-3(
             texto="Oh, I see what you mean! / <span class=' fst-normal fw-normal r--b' > ¡Oh, ya veo lo que quieres decir! </span>"
-            :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+            :audio="require('@/assets/curso/audios/tema5/9.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           h5 #[em Emotion they express] / Emoción que expresan
@@ -127,7 +127,7 @@
           h4.text-center Exclamation sentence / Frase exclamativa
           TarjetaAudio.bg-white.color-acento-botones.mb-3(
             texto="You can’t be serious! <br> ¡No puedes hablar en serio! / <span class=' fst-normal fw-normal r--b' >¡No puede ser en serio! </span>"
-            :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+            :audio="require('@/assets/curso/audios/tema5/10.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           h5 #[em Emotion they express] / Emoción que expresan
@@ -202,7 +202,7 @@ export default {
           textoIng:
             'Yesterday, I had an emergency surgery, which was approved *** thanks to my uncle who works at the hospital. ',
           textoEsp: '',
-          audio: require('@/assets/curso/audios/tema1/1.mp3'),
+          audio: require('@/assets/curso/audios/tema5/kevin1.mp3'),
           palabra: 'quickly',
         },
         {
@@ -210,14 +210,14 @@ export default {
           textoIng:
             '*** you! In the hospital, they sometimes take a long time to assist people.',
           textoEsp: '',
-          audio: require('@/assets/curso/audios/tema1/1.mp3'),
+          audio: require('@/assets/curso/audios/tema5/manuela1.mp3'),
           palabra: 'Lucky',
         },
         {
           personaje: 'Kevin',
           textoIng: 'Yes, what a *** !',
           textoEsp: '',
-          audio: require('@/assets/curso/audios/tema1/1.mp3'),
+          audio: require('@/assets/curso/audios/tema5/kevin2.mp3'),
           palabra: 'nightmare',
         },
       ],
