@@ -49,32 +49,48 @@
               .col-lg-6.col-8.mb-lg-0.mb-3(data-aos="fade-right")
                 img(src='@/assets/curso/temas/tema2/5.svg', alt='')
               .col-lg-6(data-aos="fade-left")
-                  TarjetaAudio.no-input.mb-3(
-                    texto="<b>Son:</b> Mom, tell me about you and dad. How has your love story been?"
-                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
-                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                    style='background-color: #cad3f2; border: 0px'
-                  )
-                  TarjetaAudio.no-input.mb-3(
-                    texto="<b>Mom:</b> Well, son, he and I met at school, when we were 13, but we’ve been together since we were 18, when we fell in love. The next year, we got married, moved to the United States and lived abroad for over 20 years before coming back to our hometown."
-                    :audio="require('@/assets/curso/audios/tema2/2.mp3')"
-                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                    style='background-color: #fff0b5; border: 0px'
-                  )
+                .contenedor-traductor.edit.hr(style='background-color: #cad3f2').p-3.mb-5
+                      .contenedor-traductor__eng
+                        .row.justify-content-center.align-items-center
+                          .col-lg-10
+                            p.fst-italic.mb-0 <b>Son:</b> Mom, tell me about you and dad. How has your love story been?
+                          .col-lg-2
+                            Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/1.mp3')").mb-0
+                      .contenedor-traductor__esp(:class="{ mostrar: dial1}")
+                        p Mamá, cuéntame sobre ti y papá. ¿Cómo ha sido su historia de amor?
+                      a.boton-traduccion(@click='dial1 = !dial1' style='background-color: #fc5f65') Ver traducción
+                .contenedor-traductor.edit.hr(style='background-color: #fff0b5').p-3.mb-5
+                      .contenedor-traductor__eng
+                        .row.justify-content-center.align-items-center
+                          .col-lg-10
+                            p.fst-italic.mb-0 <b>Mom:</b> Well, son, he and I met at school, when we were 13, but we’ve been together since we were 18, when we fell in love. The next year, we got married, moved to the United States and lived abroad for over 20 years before coming back to our hometown.
+                          .col-lg-2
+                            Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/2.mp3')").mb-0
+                      .contenedor-traductor__esp(:class="{ mostrar: dial2}")
+                        p Bueno, hijo, él y yo nos conocimos en el colegio, a los 13 años, pero hemos estado juntos desde los 18 años, que nos enamoramos. Al año siguiente, nos casamos, nos mudamos a los Estados Unidos y vivimos en el extranjero por más de 20 años, antes de regresar a nuestra ciudad natal.
+                      a.boton-traduccion(@click='dial2 = !dial2' style='background-color: #fc5f65') Ver traducción
             .row.justify-content-center.align-items-center.mb-5
               .col-lg-6(data-aos="fade-left")
-                  TarjetaAudio.no-input.mb-3(
-                    texto="<b>Son:</b> You have known each other for almost your entire life."
-                    :audio="require('@/assets/curso/audios/tema2/3.mp3')"
-                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                    style='background-color: #cad3f2; border: 0px'
-                  )
-                  TarjetaAudio.no-input.mb-3(
-                    texto="<b>Mom:</b> Yes, we have lived together for over 40 years and haven’t spent a single day apart."
-                    :audio="require('@/assets/curso/audios/tema2/4.mp3')"
-                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                    style='background-color: #fff0b5; border: 0px'
-                  )
+                .contenedor-traductor.edit.hr(style='background-color: #cad3f2').p-3.mb-5
+                    .contenedor-traductor__eng
+                      .row.justify-content-center.align-items-center
+                        .col-lg-10
+                          p.fst-italic.mb-0 <b>Son:</b> You have known each other for almost your entire life.
+                        .col-lg-2
+                          Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/3.mp3')").mb-0
+                    .contenedor-traductor__esp(:class="{ mostrar: dial3}")
+                      p Ustedes se conocen de casi toda la vida.
+                    a.boton-traduccion(@click='dial3 = !dial3' style='background-color: #fc5f65') Ver traducción
+                .contenedor-traductor.edit.hr(style='background-color: #fff0b5').p-3.mb-5
+                      .contenedor-traductor__eng
+                        .row.justify-content-center.align-items-center
+                          .col-lg-10
+                            p.fst-italic.mb-0 <b>Mom:</b> Yes, we have lived together for over 40 years and haven’t spent a single day apart.
+                          .col-lg-2
+                            Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/4.mp3')").mb-0
+                      .contenedor-traductor__esp(:class="{ mostrar: dial4}")
+                            p Sí, hemos vivido juntos por más de 40 años y no hemos pasado un solo día separados.
+                      a.boton-traduccion(@click='dial4 = !dial4' style='background-color: #fc5f65') Ver traducción
               .col-lg-6.col-8.mb-lg-0.mb-3(data-aos="fade-right")
                 img(src='@/assets/curso/temas/tema2/6.svg', alt='')
             .tarjeta-intro__icon1: img(src='@/assets/curso/portada/a4.svg', alt='')
@@ -86,13 +102,13 @@
           .tarjeta.color-secundario.p-2.d-flex.align-items-center.mb-3
             img(src='@/assets/curso/temas/tema2/7.svg', alt='' style='width: 44px').me-4
             .fst-italic
-              h4.mb-1 S + have/has + past participle
+              h4.mb-1 Subject + have/has + past participle
               p.mb-0 She has lived in Liverpool all her life.
           .tarjeta.color-secundario.p-2.d-flex.align-items-center.mb-3
             img(src='@/assets/curso/temas/tema2/8.svg', alt='' style='width: 44px').me-4
             .fst-italic
-              h4.mb-1 S + have not (haven´t)/has not (hasn’t) + past participle
-              p.mb-0 she hasn´t lived in Liverpool all her life.
+              h4.mb-1 Subject + have not (haven't)/has not (hasn’t) + past participle
+              p.mb-0 She hasn't lived in Liverpool all her life.
           .tarjeta.color-secundario.p-2.d-flex.align-items-center.mb-3
             img(src='@/assets/curso/temas/tema2/9.svg', alt='' style='width: 44px').me-4
             .fst-italic
@@ -105,7 +121,7 @@
           .contenedor-traductor__eng
             p.fst-italic The present perfect tense is formed using the present tense of the verb “have” plus the past participle of the main verb. You have to be careful with the third person singular (he, she, it) since the auxiliary is “has”, not “have” as for the other grammatical persons (I, you, we, they).
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp2}")
-            p El tiempo presente perfecto se forma usando el presente del verbo "have" más el participio pasado del verbo principal. Hay que tener cuidado con la tercera persona en singular (he, she, it) porque el auxiliar es "has", no "have" como para las demás personas gramaticales (I, you, we, they). 
+            p El tiempo presente perfecto se forma usando el presente del verbo #[em "have"] más el participio pasado del verbo principal. Hay que tener cuidado con la tercera persona en singular #[em (he, she, it)] porque el auxiliar es #[em "has"], no #[em "have"] como para las demás personas gramaticales #[em (I, you, we, they).] 
           a.boton-traduccion(@click='ocultarEsp2 = !ocultarEsp2' style='background-color: #fc5f65') Ver traducción
     .margin-n.p-3.px-5.mb-5(style="background-color: #a6bbff")
       .row.justify-content-center.mb-4
@@ -119,6 +135,7 @@
           img(src='@/assets/curso/temas/tema2/10.jpg', alt='' style='border-radius: 10px')
         .col-lg-8(data-aos="fade-right")
           .tarjeta.bg-white.p-4
+            p.fst-italic.text-center Let's see how a verb interacts with the rest of the words using the present perfect in affirmative, negative, and interrogative sentences. 
             SlyderA.dots-4.audio-blue(tipo='b')
               div
                 p.text-center 
@@ -271,21 +288,21 @@
                   .col-lg-4.mb-lg-0.mb-3
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Susy has worked here since 2019."
-                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1_1.wav')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
                   .col-lg-4.mb-lg-0.mb-3
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="They have not paid any rent for several months."
-                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1_2.wav')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
                   .col-lg-4
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Caroline has practiced swimming in this pool since she was little."
-                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1_3.wav')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
@@ -305,21 +322,21 @@
                   .col-lg-4.mb-lg-0.mb-3
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Frank has gone to Brazil."
-                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1_4.wav')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
                   .col-lg-4.mb-lg-0.mb-3
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Lia has lost her Ipod."
-                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1_5.wav')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
                   .col-lg-4
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="They have climbed that mountain together."
-                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1_6.wav')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
@@ -339,21 +356,21 @@
                   .col-lg-4.mb-lg-0.mb-3
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Carol and Sue have gone to the gym once a week."
-                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1_7.wav')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
                   .col-lg-4.mb-lg-0.mb-3
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Mario has looked for a job this month."
-                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1_8.wav')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
                   .col-lg-4
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="They have been in line to pay for public services."
-                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1_9.wav')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
@@ -373,21 +390,21 @@
                   .col-lg-4.mb-lg-0.mb-3
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Paul and Linda have gone to the movies several times."
-                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1_10.wav')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
                   .col-lg-4.mb-lg-0.mb-3
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Julia has visited the theater at every premiere of a play."
-                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1_11.wav')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
                   .col-lg-4
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Sara has talked to her son about sexuality several times."
-                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1_12.wav')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
@@ -407,21 +424,21 @@
                   .col-lg-4.mb-lg-0.mb-3
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Joseph has fixed his car just now. "
-                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1_13.wav')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
                   .col-lg-4.mb-lg-0.mb-3
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="They have ended their relationship just this week."
-                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1_14.wav')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
                   .col-lg-4
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Mary has just finished her housework at home."
-                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1_15.wav')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
@@ -441,21 +458,21 @@
                   .col-lg-4.mb-lg-0.mb-3
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="I have lived near famous movie stars."
-                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1_16.wav')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
                   .col-lg-4.mb-lg-0.mb-3
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Debbie has studied in Harvard for her Law degree."
-                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1_17.wav')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
                   .col-lg-4
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Donald has won the lottery."
-                    :audio="require('@/assets/curso/audios/tema2/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/1_18.wav')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
                     )
@@ -530,14 +547,14 @@
                     p.text-center Clue words / Palabras clave
                     .d-flex.justify-content-center
                       TarjetaAudio.bg-white.color-acento-botones.mb-2(
-                        texto="Last….."
+                        texto="Last..."
                         :audio="require('@/assets/curso/audios/tema2/35.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
                     .d-flex.justify-content-center
                       TarjetaAudio.bg-white.color-acento-botones.mb-2(
-                        texto="…ago"
+                        texto="… ago"
                         :audio="require('@/assets/curso/audios/tema2/36.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
@@ -549,6 +566,63 @@
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
+              div.px-5
+                h4.text-center.fst-italic 
+                  span.r--1 Present perfect / Simple past
+                    br
+                    |Structures
+                .tarjeta--container.row.mb-5
+                  .col-md.tarjeta(style="background-color: #fff7da").p-5
+                    .d-flex.justify-content-center
+                      div(style="background-color: #3c3fa7 ").p-2.d-inline-block.mb-4
+                        h4.text-white.mb-0.mx-5.fst-italic Present Perfect
+                    p.text-center Structures / Estructuras
+                    .row.justify-content-center
+                      .col-lg-8
+                        .tarjeta.p-4.mb-3(style="background-color: #fff0b5 ").d-flex.justify-content-between.aling-items-center
+                          p.h1.mb-0 +
+                          .fst-italic 
+                            p.mb-0 I #[u have] #[b eaten.]
+                              br
+                              | She #[u has] #[b eaten.]
+                        .tarjeta.p-4.mb-3(style="background-color: #fff0b5 ").d-flex.justify-content-between.aling-items-center
+                          p.h1.mb-0 -
+                          .fst-italic 
+                            p.mb-0 I #[u haven’t ] #[b eaten.]
+                              br
+                              | She #[u hasn’t] #[b eaten.]
+                        .tarjeta.p-4.mb-3(style="background-color: #fff0b5 ").d-flex.justify-content-between.aling-items-center
+                          p.h1.mb-0 ?
+                          .fst-italic 
+                            p.mb-0 #[u Have] I  #[b eaten?]
+                              br
+                              | #[u Has] she  #[b eaten?]
+
+                  .col-md.tarjeta(style="background-color: #f0f4ff ").p-5
+                    .d-flex.justify-content-center
+                      div(style="background-color: #3c3fa7 ").p-2.d-inline-block.mb-4
+                        h4.text-white.mb-0.mx-5.fst-italic Simple Past
+                    p.text-center Structures / Estructuras
+                    .row.justify-content-center.mb-5
+                      .col-lg-8
+                        .tarjeta.p-4.mb-3(style="background-color: #c4d1ff ").d-flex.justify-content-between.aling-items-center
+                          p.h1.mb-0 +
+                          .fst-italic 
+                            p.mb-0 I  #[b ate.]
+                              br
+                              | She  #[b ate.]
+                        .tarjeta.p-4.mb-3(style="background-color: #c4d1ff ").d-flex.justify-content-between.aling-items-center
+                          p.h1.mb-0 -
+                          .fst-italic 
+                            p.mb-0 I #[u didn’t ] #[b eat.]
+                              br
+                              | She #[u didn’t] #[b eat.]
+                        .tarjeta.p-4.mb-3(style="background-color: #c4d1ff ").d-flex.justify-content-between.aling-items-center
+                          p.h1.mb-0 ?
+                          .fst-italic 
+                            p.mb-0 #[u Did] I  #[b eat?]
+                              br
+                              | #[u Did] she  #[b eat?]
               div.px-5
                 h4.text-center.fst-italic 
                   span.r--1 Present perfect / Simple past
@@ -565,12 +639,12 @@
                     .row.justify-content-center.mb-5
                       .col-lg-10: img(src='@/assets/curso/temas/tema2/27.svg', alt='')
                     p
-                      span.r--1.fst-italic For example
+                      span.r--1.fst-italic For example 
                       span.r--g / Por ejemplo:  
                     .d-flex.justify-content-center
                       TarjetaAudio.bg-white.color-acento-botones.mb-3(
-                        texto="She bought a new house 3 months ago. / <span class= 'r--b fw-normal fst-normal' > Ella compró una casa nueva hace 3 meses.</span>"
-                        :audio="require('@/assets/curso/audios/tema2/45.mp3')"
+                        texto="I have called him five times so far <span class= 'r--b fw-normal fst-normal' > Lo he llamado cinco veces hasta ahora.</span>"
+                        :audio="require('@/assets/curso/audios/tema2/46.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
@@ -584,7 +658,7 @@
                     .row.justify-content-center.mb-5
                       .col-lg-10: img(src='@/assets/curso/temas/tema2/28.svg', alt='')
                     p
-                      span.r--1.fst-italic For example
+                      span.r--1.fst-italic For example 
                       span.r--g / Por ejemplo:  
                     .d-flex.justify-content-center
                       TarjetaAudio.bg-white.color-acento-botones.mb-3(
@@ -607,7 +681,7 @@
                       span.r--1 To talk about things that happened in the past, but we don’t specify when they have happened. /
                       span.r--g Para hablar de cosas que sucedieron en el pasado, pero no especificamos cuándo han sucedido.
                     p
-                      span.r--1 For example /
+                      span.r--1 For example / 
                       span.r--g Por ejemplo:
 
                     TarjetaAudio.bg-white.color-acento-botones.mb-3(
@@ -624,7 +698,7 @@
                       span.r--1 To talk about things that happened at a specific time in the past. 
                       span.r--g / Para hablar de cosas que sucedieron en un momento específico en el pasado.
                     p
-                      span.r--1 For example /
+                      span.r--1 For example / 
                       span.r--g Por ejemplo: 
                     TarjetaAudio.bg-white.color-acento-botones.mb-3(
                         texto="She bought a new house 3 months ago. <span class= 'r--b fw-normal fst-normal' > / Ella compró una casa nueva hace 3 meses.</span>"
@@ -632,100 +706,6 @@
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
-              div.px-5
-                h4.text-center.fst-italic 
-                  span.r--1 Present perfect / Simple past
-                    br
-                    |Structures
-                .tarjeta--container.row.mb-5
-                  .col-md.tarjeta(style="background-color: #fff7da").p-5
-                    .d-flex.justify-content-center
-                      div(style="background-color: #3c3fa7 ").p-2.d-inline-block.mb-4
-                        h4.text-white.mb-0.mx-5.fst-italic Present Perfect
-                    p.text-center Structures / Estructuras
-                    .row.justify-content-center.mb-5
-                      .col-lg-6
-                        TarjetaAudio.bg-white.color-acento-botones.mb-2(
-                          texto="I have eaten."
-                          :audio="require('@/assets/curso/audios/tema2/38.mp3')"
-                          @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                          
-                          )
-                        TarjetaAudio.bg-white.color-acento-botones.mb-2(
-                          texto="I haven’t eaten."
-                          :audio="require('@/assets/curso/audios/tema2/39.mp3')"
-                          @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                          
-                          )
-                        TarjetaAudio.bg-white.color-acento-botones.mb-2(
-                          texto="Have I eaten?"
-                          :audio="require('@/assets/curso/audios/tema2/40.mp3')"
-                          @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                          
-                          )
-                      .col-lg-6
-                        TarjetaAudio.bg-white.color-acento-botones.mb-2(
-                          texto="She has eaten."
-                          :audio="require('@/assets/curso/audios/tema2/1.mp3')"
-                          @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                          
-                          )
-                        TarjetaAudio.bg-white.color-acento-botones.mb-2(
-                          texto="She hasn’t eaten."
-                          :audio="require('@/assets/curso/audios/tema2/2.mp3')"
-                          @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                          
-                          )
-                        TarjetaAudio.bg-white.color-acento-botones.mb-2(
-                          texto="Has she eaten?"
-                          :audio="require('@/assets/curso/audios/tema2/3.mp3')"
-                          @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                          
-                          )
-                  .col-md.tarjeta(style="background-color: #f0f4ff ").p-5
-                    .d-flex.justify-content-center
-                      div(style="background-color: #3c3fa7 ").p-2.d-inline-block.mb-4
-                        h4.text-white.mb-0.mx-5.fst-italic Simple Past
-                    p.text-center Structures / Estructuras
-                    .row.justify-content-center.mb-5
-                      .col-lg-6
-                        TarjetaAudio.bg-white.color-acento-botones.mb-3(
-                          texto="I ate."
-                          :audio="require('@/assets/curso/audios/tema2/41.mp3')"
-                          @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                          
-                          )
-                        TarjetaAudio.bg-white.color-acento-botones.mb-3(
-                          texto="I didn’t eat."
-                          :audio="require('@/assets/curso/audios/tema2/42.mp3')"
-                          @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                          
-                          )
-                        TarjetaAudio.bg-white.color-acento-botones.mb-3(
-                          texto="Did I eat?"
-                          :audio="require('@/assets/curso/audios/tema2/43.mp3')"
-                          @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                          
-                          )
-                      .col-lg-6
-                        TarjetaAudio.bg-white.color-acento-botones.mb-3(
-                          texto="She ate."
-                          :audio="require('@/assets/curso/audios/tema2/1.mp3')"
-                          @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                          
-                          )
-                        TarjetaAudio.bg-white.color-acento-botones.mb-3(
-                          texto="She didn’t eat."
-                          :audio="require('@/assets/curso/audios/tema2/1.mp3')"
-                          @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                          
-                          )
-                        TarjetaAudio.bg-white.color-acento-botones.mb-3(
-                          texto="Did she eat?"
-                          :audio="require('@/assets/curso/audios/tema2/1.mp3')"
-                          @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                          
-                          )
               div.px-5
                 h4.text-center.fst-italic 
                   span.r--1 Present perfect / Simple past
@@ -740,7 +720,7 @@
                       span.r--1 To talk about a state which has gone on up to the present. 
                       span.r--g / Para hablar de un estado que se ha prolongado hasta el presente.
                     p
-                      span.r--1 For example /
+                      span.r--1 For example / 
                       span.r--g Por ejemplo:
 
                     TarjetaAudio.bg-white.color-acento-botones.mb-3(
@@ -757,11 +737,11 @@
                       span.r--1 To talk about a state in the past in a period which is finished. 
                       span.r--g / Para hablar de un estado en el pasado en un periodo que ha terminado.
                     p
-                      span.r--1 For example /
+                      span.r--1 For example / 
                       span.r--g Por ejemplo:
 
                     TarjetaAudio.bg-white.color-acento-botones.mb-3(
-                        texto="Sandra was in the clinic for two days. <span class= 'r--b fw-normal fst-normal' > / / Sandra estuvo dos días en la clínica.</span>"
+                        texto="Sandra was in the clinic for two days. <span class= 'r--b fw-normal fst-normal' >  / Sandra estuvo dos días en la clínica.</span>"
                         :audio="require('@/assets/curso/audios/tema2/49.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
@@ -777,12 +757,12 @@
                       div(style="background-color: #3c3fa7 ").p-2.d-inline-block.mb-4
                         h4.text-white.mb-0.mx-5.fst-italic Present Perfect
                     p
-                      span.r--1 #[em It is used with today, this morning, this week, etc. when these periods are not finished at the time of speaking. ] 
-                      span.r--g Es usado con “today”, “this morning”, “this week”, etc., cuando estos periodos no se han terminado al momento de hablar.
+                      span.r--1 #[em It is used with "today", "this morning", "this week", etc. when these periods are not finished at the time of speaking. ]  
+                      span.r--g / Es usado con #[em “today”], #[em “this morning”], #[em “this week”], etc., cuando estos periodos no se han terminado al momento de hablar.
                     .row.justify-content-center.mb-5
                       .col-lg-10: img(src='@/assets/curso/temas/tema2/29.svg', alt='')
                     p
-                      span.r--1.fst-italic For example
+                      span.r--1.fst-italic For example 
                       span.r--g / Por ejemplo:  
                     .d-flex.justify-content-center
                       TarjetaAudio.bg-white.color-acento-botones.mb-3(
@@ -797,11 +777,11 @@
                         h4.text-white.mb-0.mx-5.fst-italic Simple Past
                     p
                       span.r--1 #[em It is used with “today”, “this morning”, “this week”, etc., when these periods are finished at the time of speaking. ] 
-                      span.r--g / Es usado con “today”, “this morning”, “this week”, etc., cuando estos periodos ya se han terminado al momento de hablar.
+                      span.r--g / Es usado con #[em “today”], #[em “this morning], #[em “this week”], etc., cuando estos periodos ya se han terminado al momento de hablar.
                     .row.justify-content-center.mb-5
                       .col-lg-10: img(src='@/assets/curso/temas/tema2/30.svg', alt='')
                     p
-                      span.r--1.fst-italic For example
+                      span.r--1.fst-italic For example  
                       span.r--g / Por ejemplo:  
                     .d-flex.justify-content-center
                       TarjetaAudio.bg-white.color-acento-botones.mb-3(
@@ -824,7 +804,7 @@
                       span.r--1 #[em To give new information (a general summary). ] 
                       span.r--g / Para dar nueva información (un resumen general).
                     p
-                      span.r--1.fst-italic For example
+                      span.r--1.fst-italic For example  
                       span.r--g / Por ejemplo:  
                     .d-flex.justify-content-center
                       TarjetaAudio.bg-white.color-acento-botones.mb-3(
@@ -841,7 +821,7 @@
                       span.r--1 #[em To give the details of a story. ] 
                       span.r--g / Para dar los detalles de una historia.
                     p
-                      span.r--1.fst-italic For example
+                      span.r--1.fst-italic For example  
                       span.r--g / Por ejemplo:  
                     .d-flex.justify-content-center
                       TarjetaAudio.bg-white.color-acento-botones.mb-3(
@@ -1035,15 +1015,15 @@
       .col-lg-7(data-aos="fade-left")
         .contenedor-traductor(style='background-color: #fcf2ca').mb-5
           .contenedor-traductor__eng
-            p.fst-italic  Although they can sometimes be used with other tenses, we often use the adverbs #[b “just”, “still”, “already”], and #[b “yet”], or the prepositions “since” and “for” with the present perfect tense. These words generally refer to a period of time between the past and now. Let’s see how to use each of them.
+            p.fst-italic  Although they can sometimes be used with other tenses, we often use the adverbs #[b “just”, “still”, “already”], and #[b “yet”], or the prepositions #[b “since”] and #[b “for”] with the present perfect tense. These words generally refer to a period of time between the past and now. Let’s see how to use each of them.
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp6}")
-            p Si bien a veces pueden usarse con otros tiempos verbales, a menudo usamos los adverbios "just", "still", "already" y "yet" o las preposiciones "since" y "for" con el tiempo presente perfecto.
+            p Si bien a veces pueden usarse con otros tiempos verbales, a menudo usamos los adverbios #[em "just"], #[em "still"], #[em "already"] y #[em "yet"] o las preposiciones #[em "since"] y #[em "for"] con el tiempo presente perfecto.
               br
               |Estas palabras generalmente se refieren a un periodo de tiempo entre el pasado y el ahora. Veamos cómo usar cada uno de ellos.
 
           a.boton-traduccion(@click='ocultarEsp6 = !ocultarEsp6' style='background-color: #fc5f65') Ver traducción
     p.mb-5(data-aos='fade-right')
-      span.r--1 These words generally refer to a period of time between the past and now. Let's see how to use each of them. 
+      span.r--1.fst-italic These words generally refer to a period of time between the past and now. Let's see how to use each of them. 
       span.r--g / Estas palabras generalmente se refieren a un periodo de tiempo entre el pasado y el ahora. Veamos cómo usar cada una de ellas.
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="fade-right")
@@ -1064,11 +1044,11 @@
                       
                       )
                     p.ms-4 Acabo de ver a Sara con Marco.
-              p.fst-italic Position in the sentence:  Between the #[b auxiliary verb] and the past participle verb.
+              p.fst-italic Position in the sentence:  Between the #[b auxiliary verb] and the #[b past participle verb.]
           div(titulo="Still")
             .tarjeta.bg-white.p-4
               p
-                span.fst-italic #[b Use:] Events that have not happened for a long time (negative sentences).
+                span.fst-italic #[b Use:] Events that have not happened for a long time (negative sentences). 
                 span.r--g Acontecimientos que continúan sin ocurrir desde hace mucho tiempo (frases negativas).
               h5.text-center.fst-italic For example:
               .row.justify-content-center.mb-3
@@ -1085,7 +1065,7 @@
           div(titulo="Already")
             .tarjeta.bg-white.p-4
               p
-                span.fst-italic #[b Use:]  Events that happened before you expected (affirmative sentences).
+                span.fst-italic #[b Use:]  Events that happened before you expected (affirmative sentences). 
                 span.r--g / Acontecimientos que sucedieron antes de lo esperado (frases afirmativas).
               h5.text-center.fst-italic For example:
               .row.justify-content-center.mb-3
@@ -1109,7 +1089,7 @@
           div(titulo="Yet")
             .tarjeta.bg-white.p-4
               p
-                span.fst-italic #[b Use:]  It usually refers to something that has not happened, but you expect it to happen soon (negative and interrogative sentences).
+                span.fst-italic #[b Use:]  It usually refers to something that has not happened, but you expect it to happen soon (negative and interrogative sentences). 
                 span.r--g / Usualmente, se refiere a algo que no ha sucedido, pero esperas que suceda pronto (frases negativas e interrogativas).
               h5.text-center.fst-italic For example:
               .row.justify-content-center.mb-3
@@ -1126,7 +1106,7 @@
           div(titulo="For")
             .tarjeta.bg-white.p-4
               p
-                span.fst-italic #[b Use:]  It measures the duration of something or how long it lasts.
+                span.fst-italic #[b Use:]  It measures the duration of something or how long it lasts. 
                 span.r--g  / Mide la duración de algo o por cuánto tiempo se desarrolla.
               h5.text-center.fst-italic For example:
               .row.justify-content-center.mb-3
@@ -1143,7 +1123,7 @@
           div(titulo="Since")
             .tarjeta.bg-white.p-4
               p
-                span.fst-italic #[b Use: To mark the moment something started in the past and continues until now.]
+                span.fst-italic #[b Use: To mark the moment something started in the past and continues until now. ]  
                 span.r--g / Para señalar el momento en que comenzó algo en el pasado y continúa hasta ahora.
               h5.text-center.fst-italic For example:
               .row.justify-content-center.mb-3
@@ -1182,6 +1162,10 @@ export default {
     ocultarEsp7: true,
     ocultarEsp8: true,
     ocultarEsp9: true,
+    dial1: true,
+    dial2: true,
+    dial3: true,
+    dial4: true,
     dialogo: {
       personajes: [
         {

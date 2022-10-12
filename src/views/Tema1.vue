@@ -32,38 +32,58 @@
                   SlyderE(indicadores="derecha")
                     div
                       p.text-center.fw-bold #[em Thematic Dialogue]  / Diálogo Temático
-                      TarjetaAudio.no-input.mb-3(
-                        texto="<b>Pedro:</b> Sonia, have you ever been on tv?"
-                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
-                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                        style='background-color: #cad3f2; border: 0px'
-                      )
-                      TarjetaAudio.no-input.mb-3(
-                        texto="<b>Sonia:</b> Actually, yes, I have. I sang in the talent show of “The Great Night Show”, a very popular television program in the 80s."
-                        :audio="require('@/assets/curso/audios/tema1/4.mp3')"
-                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                        style='background-color: #fff0b5; border: 0px'
-                      )
-                      TarjetaAudio.no-input.mb-3(
-                        texto="Wow, that’s amazing! I have never sung in public or been on tv. You have had a very interesting life. Tell me, what other exciting events have you experienced?"
-                        :audio="require('@/assets/curso/audios/tema1/2.mp3')"
-                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                        style='background-color: #cad3f2; border: 0px'
-                      )
+                      .contenedor-traductor.edit.hr(style='background-color: #cad3f2').p-3.mb-5
+                        .contenedor-traductor__eng
+                          .row.justify-content-center.align-items-center
+                            .col-lg-10
+                              p.fst-italic.mb-0 Pedro: Sonia, have you ever been on tv?
+                            .col-lg-2
+                              Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-0
+                        .contenedor-traductor__esp(:class="{ mostrar: dial1}")
+                          p Sonia, ¿alguna vez has estado en televisión?
+                        a.boton-traduccion(@click='dial1 = !dial1' style='background-color: #fc5f65') Ver traducción
+                      .contenedor-traductor.edit.hr(style='background-color: #fff0b5').p-3.mb-5
+                        .contenedor-traductor__eng
+                          .row.justify-content-center.align-items-center
+                            .col-lg-10
+                              p.fst-italic.mb-0 <b>Sonia:</b> Actually, yes, I have. I sang in the talent show of “The Great Night Show”, a very popular television program in the 80s.
+                            .col-lg-2
+                              Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema1/4.mp3')").mb-0
+                        .contenedor-traductor__esp(:class="{ mostrar: dial2}")
+                          p De hecho, sí. Canté en el concurso de talentos de "El Gran Show de la Noche", un programa de televisión muy popular en los años 80.
+                        a.boton-traduccion(@click='dial2 = !dial2' style='background-color: #fc5f65') Ver traducción
+                      .contenedor-traductor.edit.hr(style='background-color: #cad3f2').p-3.mb-5
+                        .contenedor-traductor__eng
+                          .row.justify-content-center.align-items-center
+                            .col-lg-10
+                              p.fst-italic.mb-0 Wow, that’s amazing! I have never sung in public or been on tv. You have had a very interesting life. Tell me, what other exciting events have you experienced?
+                            .col-lg-2
+                              Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema1/2.mp3')").mb-0
+                        .contenedor-traductor__esp(:class="{ mostrar: dial3}")
+                          p Wow, ¡eso es genial! Yo nunca he cantado en público ni he estado en televisión. Tú has tenido una vida muy interesante. Cuéntame, ¿qué otra cosa emocionante has vivido?
+                        a.boton-traduccion(@click='dial3 = !dial3' style='background-color: #fc5f65') Ver traducción
                     div
                       p.text-center.fw-bold #[em Thematic Dialogue]  / Diálogo Temático
-                      TarjetaAudio.no-input.mb-3(
-                        texto="Well, Pedro, one of the strangest and most exciting things I’ve experienced was when I almost won the lottery… all the numbers on the ticket came out, except for the last one. My heart nearly jumped out of my chest!"
-                        :audio="require('@/assets/curso/audios/tema1/5.mp3')"
-                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                        style='background-color: #fff0b5; border: 0px'
-                      )
-                      TarjetaAudio.no-input.mb-3(
-                        texto="I can imagine!"
-                        :audio="require('@/assets/curso/audios/tema1/3.mp3')"
-                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                        style='background-color: #cad3f2; border: 0px'
-                      )
+                      .contenedor-traductor.edit.hr(style='background-color: #fff0b5').p-3.mb-5
+                        .contenedor-traductor__eng
+                          .row.justify-content-center.align-items-center
+                            .col-lg-10
+                              p.fst-italic.mb-0 Well, Pedro, one of the strangest and most exciting things I’ve experienced was when I almost won the lottery… all the numbers on the ticket came out, except for the last one. My heart nearly jumped out of my chest!
+                            .col-lg-2
+                              Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema1/5.mp3')").mb-0
+                        .contenedor-traductor__esp(:class="{ mostrar: dial4}")
+                          p Bueno, Pedro, una de las cosas más extrañas y emocionantes que he vivido fue cuando casi gano la lotería. Salieron todos los números del tiquete, excepto el último. ¡Casi se me sale el corazón del pecho!
+                        a.boton-traduccion(@click='dial4 = !dial4' style='background-color: #fc5f65') Ver traducción
+                      .contenedor-traductor.edit.hr(style='background-color: #cad3f2').p-3.mb-5
+                        .contenedor-traductor__eng
+                          .row.justify-content-center.align-items-center
+                            .col-lg-10
+                              p.fst-italic.mb-0 I can imagine!
+                            .col-lg-2
+                              Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema1/3.mp3')").mb-0
+                        .contenedor-traductor__esp(:class="{ mostrar: dial5}")
+                          p ¡Me lo puedo imaginar!
+                        a.boton-traduccion(@click='dial5 = !dial5' style='background-color: #fc5f65') Ver traducción
               .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/3.svg', alt='' )
       .contenedor-slyder.mb-5
         .row.justify-content-end.mb-5
@@ -176,6 +196,12 @@ export default {
   data: () => ({
     ocultarEsp: true,
     ocultarEsp2: true,
+    dial1: true,
+    dial2: true,
+    dial3: true,
+    dial4: true,
+    dial5: true,
+    dial6: true,
     dialogo: {
       personajes: [
         {

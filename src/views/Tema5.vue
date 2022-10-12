@@ -10,7 +10,11 @@
       .col-lg-8(data-aos="fade-left")
         .contenedor-traductor(style='background-color: #fcf2ca').mb-5
           .contenedor-traductor__eng
-            p.fst-italic  Exclamations are used to express surprise, shock, or strong emotion about something. When writing, an exclamation point (!) is usually placed at the end of the exclamatory phrase. Unlike Spanish, English doesn’t have an opening exclamation mark at the beginning of the phrase.
+            p.fst-italic  Exclamations are used to express surprise, shock, or strong emotion about something. When writing, an exclamation point 
+              span.r--4.fw-bold (!) 
+              | is usually placed at the 
+              span.r--4.fw-bold end of the exclamatory phrase. 
+              | Unlike Spanish, English doesn’t have an opening exclamation mark at the beginning of the phrase.
               br
               |Example:
               br
@@ -23,6 +27,15 @@
               |Next, you are invited to listen to the following thematic dialogue with exclamation phrases that are used in some English conversations.
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
             p Las exclamaciones son usadas para expresar sorpresa, conmoción o una emoción fuerte sobre algo. Al escribir, suele ponerse un signo de exclamación (!) al final de la frase exclamativa.  A diferencia del español, el inglés no tiene un signo de exclamación de apertura al principio de la frase.
+              br
+              br
+              |¡No puedo creerlo!
+              br
+              |¡Oh, no! ¡Mira este lugar!
+              br
+              br
+              | A continuación, se le invita a escuchar el siguiente diálogo temático con frases de exclamación que son utilizadas en algunas conversaciones de inglés.
+
 
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp' style='background-color: #fc5f65') Ver traducción
       .col-lg-4.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema5/1.jpg', alt='' style='border-radius: 20px')
@@ -37,33 +50,49 @@
               .col-lg-6: img(src='@/assets/curso/temas/tema5/2.svg', alt='') 
               
               .col-lg-6
-                TarjetaAudio.no-input.mb-3(
-                    texto="<b> Kevin:</b> Manuela, I haven’t sent you my part of the group project because yesterday I broke my arm in three pieces."
-                    :audio="require('@/assets/curso/audios/tema5/1.mp3')"
-                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                    style='background-color: #cad3f2; border: 0px'
-                  )
-                TarjetaAudio.no-input.mb-3(
-                    texto="<b> Manuela:</b> You can’t be serious! What happened?"
-                    :audio="require('@/assets/curso/audios/tema5/2.mp3')"
-                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                    style='background-color: #fff0b5; border: 0px'
-                  )
+                .contenedor-traductor.edit.hr(style='background-color: #cad3f2').p-3.mb-5
+                  .contenedor-traductor__eng
+                    .row.justify-content-center.align-items-center
+                      .col-lg-10
+                        p.fst-italic.mb-0 <b> Kevin:</b> Manuela, I haven’t sent you my part of the group project because yesterday I broke my arm in three pieces.
+                      .col-lg-2
+                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/1.mp3')").mb-0
+                  .contenedor-traductor__esp(:class="{ mostrar: dial1}")
+                    p Manuela, no te he enviado mi parte del trabajo en grupo porque ayer me rompí el brazo en tres pedazos.
+                  a.boton-traduccion(@click='dial1 = !dial1' style='background-color: #fc5f65') Ver traducción
+                .contenedor-traductor.edit.hr(style='background-color: #fff0b5').p-3.mb-5
+                  .contenedor-traductor__eng
+                    .row.justify-content-center.align-items-center
+                      .col-lg-10
+                        p.fst-italic.mb-0 <b> Manuela:</b> You can’t be serious! What happened?
+                      .col-lg-2
+                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/2.mp3')").mb-0
+                  .contenedor-traductor__esp(:class="{ mostrar: dial2}")
+                    p ¡No puedes hablar en serio! ¿Qué pasó?
+                  a.boton-traduccion(@click='dial2 = !dial2' style='background-color: #fc5f65') Ver traducción
             .row.justify-content-center
               
               .col-lg-6
-                TarjetaAudio.no-input.mb-3(
-                    texto="<b> Kevin:</b> I had an accident at home. I slipped and rolled down the stairs."
-                    :audio="require('@/assets/curso/audios/tema5/3.mp3')"
-                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                    style='background-color: #cad3f2; border: 0px'
-                  )
-                TarjetaAudio.no-input.mb-3(
-                    texto="<b> Manuela:</b> Sounds awful! I hope you feel better today."
-                    :audio="require('@/assets/curso/audios/tema5/4.mp3')"
-                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                    style='background-color: #fff0b5; border: 0px'
-                  )
+                .contenedor-traductor.edit.hr(style='background-color: #cad3f2').p-3.mb-5
+                  .contenedor-traductor__eng
+                    .row.justify-content-center.align-items-center
+                      .col-lg-10
+                        p.fst-italic.mb-0 <b> Kevin:</b> I had an accident at home. I slipped and rolled down the stairs.
+                      .col-lg-2
+                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/3.mp3')").mb-0
+                  .contenedor-traductor__esp(:class="{ mostrar: dial3}")
+                    p Tuve un accidente en casa. Me resbalé y rodé escaleras abajo.
+                  a.boton-traduccion(@click='dial3 = !dial3' style='background-color: #fc5f65') Ver traducción
+                .contenedor-traductor.edit.hr(style='background-color: #fff0b5').p-3.mb-5
+                  .contenedor-traductor__eng
+                    .row.justify-content-center.align-items-center
+                      .col-lg-10
+                        p.fst-italic.mb-0 <b> Manuela:</b> Sounds awful! I hope you feel better today.
+                      .col-lg-2
+                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema5/4.mp3')").mb-0
+                  .contenedor-traductor__esp(:class="{ mostrar: dial4}")
+                    p ¡Suena horrible! Espero que hoy te sientas mejor.
+                  a.boton-traduccion(@click='dial4 = !dial4' style='background-color: #fc5f65') Ver traducción
               .col-lg-6: img(src='@/assets/curso/temas/tema5/3.svg', alt='') 
             .tarjeta-intro__icon1: img(src='@/assets/curso/portada/a4.svg', alt='')
             .tarjeta-intro__icon2: img(src='@/assets/curso/portada/a5.svg', alt='')
@@ -99,7 +128,7 @@
         .tarjeta.p-3(x="41.5%" y="90%" numero="+" style='background-color: #f0f4ff ; border: 2px solid #89b1f3')
           h4.text-center Exclamation sentence / Frase exclamativa
           TarjetaAudio.bg-white.color-acento-botones.mb-3(
-            texto="What a nightmare! / <span class=' fst-normal fw-normal r--b' > / ¡Qué pesadilla! </span>"
+            texto="What a nightmare! / <span class=' fst-normal fw-normal r--b' >  ¡Qué pesadilla! </span>"
             :audio="require('@/assets/curso/audios/tema5/7.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
@@ -164,8 +193,8 @@
     
     Dialogo.color-acento-contenido(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
-      template(#titulo-actividad) #[em Seismic activity] / Actividad sísmica
-      template(#descripcion-actividad)   
+      template(#titulo-actividad) #[em Dialogue about the exclamation phrases] / Diálogo sobre las frases de exclamación.
+      template(#descripcion-actividad) Unlike Spanish, English doesn't have an opening exclamation mark at the beginning of the phrase.
 
 
 
@@ -185,6 +214,10 @@ export default {
     ocultarEsp4: true,
     ocultarEsp5: true,
     ocultarEsp6: true,
+    dial1: true,
+    dial2: true,
+    dial3: true,
+    dial4: true,
     dialogo: {
       personajes: [
         {

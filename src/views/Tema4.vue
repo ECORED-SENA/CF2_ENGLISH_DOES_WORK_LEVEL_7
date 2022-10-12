@@ -25,10 +25,11 @@
       .col-lg-8(data-aos="fade-left")
         .contenedor-traductor(style='background-color: #fcf2ca').mb-5
           .contenedor-traductor__eng
-            p.fst-italic  Comparative adverbs, like comparative adjectives, are used to describe the differences and similarities between two things. The difference is that comparative adjectives describe similarities and differences between two nouns (people, places or objects), whereas comparative adverbs make comparisons between two verbs (they describe how an action is performed). For example :
+            p.fst-italic  Comparative adverbs, like comparative adjectives, are used to describe the differences and similarities between two things. The difference is that comparative adjectives describe similarities and differences between two nouns (people, places or objects), whereas comparative adverbs make comparisons between two verbs (they describe how an action is performed). 
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
             p Los adverbios comparativos, al igual que los adjetivos comparativos, se usan para describir las diferencias y similitudes entre dos cosas. La diferencia recae en que los adjetivos comparativos describen similitudes y diferencias entre dos sustantivos (personas, lugares u objetos), en cambio, los adverbios comparativos hacen comparaciones entre dos verbos (describen cómo se realiza una acción).
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp' style='background-color: #fc5f65') Ver traducción
+        p.mb-5(data-aos='fade-right') #[em For example:] / Por ejemplo: 
     .tarjeta--container.row.mb-5(zoom="zoom-in") 
       .col-md.tarjeta.color-primario.rounded-0.p-5
         h4.text-center.fst-italic
@@ -38,14 +39,14 @@
             figure
               img(src='@/assets/curso/temas/tema4/2.jpg', alt='Texto que describa la imagen' style='border-radius: 10px').mb-4
             TarjetaAudio.bg-white.color-acento-botones.mb-3(
-              texto="“Susana is <span class= r--1>faster</span> than David.” <span class= r--1>(comparative adjective)</span>"
+              texto="“Susana is <span class= r--1>faster</span> than David” <span class= r--1>(comparative adjective).</span>"
               :audio="require('@/assets/curso/audios/tema4/1.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
               
               )
             p.ms-4 “Susana es #[b más rápida] que David”. #[b (adjetivo comparativo)]
             TarjetaAudio.bg-white.color-acento-botones.mb-3(
-              texto="“Susana skates <span class= r--1>faster</span> than David.” <span class= r--1>(comparative adverb)</span>"
+              texto="“Susana skates <span class= r--1>faster</span> than David” <span class= r--1>(comparative adverb).</span>"
               :audio="require('@/assets/curso/audios/tema4/2.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
               
@@ -58,7 +59,7 @@
             figure
               img(src='@/assets/curso/temas/tema4/3.jpg', alt='Texto que describa la imagen' style='border-radius: 10px').mb-4
             TarjetaAudio.bg-white.color-acento-botones.mb-3(
-              texto="“Susana is <span class= r--1>more careful</span> than David in her work.” <span class= r--1>(comparative adjective)</span>"
+              texto="“Susana is <span class= r--1>more careful</span> than David in her work” <span class= r--1>(comparative adjective).</span>"
               :audio="require('@/assets/curso/audios/tema4/3.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
               
@@ -66,7 +67,7 @@
             p.ms-4  “Susana es #[b más cuidadosa] que David en su trabajo”. #[b (adjetivo comparativo).]
     
             TarjetaAudio.bg-white.color-acento-botones.mb-3(
-              texto="“Susana works <span class= r--1>more carefully</span> than David.” <span class= r--1>(comparative adverb)</span>"
+              texto="“Susana works <span class= r--1>more carefully</span> than David” <span class= r--1>(comparative adverb).</span>"
               :audio="require('@/assets/curso/audios/tema4/4.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
               
@@ -90,32 +91,50 @@
                   SlyderE(indicadores="derecha")
                     div
                       p.text-center.fw-bold #[em Thematic Dialogue]  / Diálogo Temático
-                      TarjetaAudio.no-input.mb-3(
-                        texto="<b>Lorenzo:</b> Hello, Camila. How has your volunteer work been?"
-                        :audio="require('@/assets/curso/audios/tema4/5.mp3')"
-                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                        style='background-color: #cad3f2; border: 0px'
-                      )
-                      TarjetaAudio.no-input.mb-3(
-                        texto="<b>Camila:</b> Great! I have worked hard to help build a school."
-                        :audio="require('@/assets/curso/audios/tema4/6.mp3')"
-                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                        style='background-color: #fff0b5; border: 0px'
-                      )
+                      .contenedor-traductor.edit.hr(style='background-color: #cad3f2').p-3.mb-5
+                        .contenedor-traductor__eng
+                          .row.justify-content-center.align-items-center
+                            .col-lg-10
+                              p.fst-italic.mb-0 <b>Lorenzo:</b> Hello, Camila. How has your volunteer work been?
+                            .col-lg-2
+                              Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema4/5.mp3')").mb-0
+                        .contenedor-traductor__esp(:class="{ mostrar: dial1}")
+                          p Hola, Camila. ¿Cómo ha estado tu trabajo de voluntariado?
+                        a.boton-traduccion(@click='dial1 = !dial1' style='background-color: #fc5f65') Ver traducción
+                        
+                      .contenedor-traductor.edit.hr(style='background-color: #fff0b5').p-3.mb-5
+                        .contenedor-traductor__eng
+                          .row.justify-content-center.align-items-center
+                            .col-lg-10
+                              p.fst-italic.mb-0 <b>Camila:</b> Great! I have worked hard to help build a school.
+                            .col-lg-2
+                              Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema4/6.mp3')").mb-0
+                        .contenedor-traductor__esp(:class="{ mostrar: dial2}")
+                          p ¡Muy bien! He trabajado fuertemente para ayudar a construir una escuela.
+                        a.boton-traduccion(@click='dial2 = !dial2' style='background-color: #fc5f65') Ver traducción
                     div
                       p.text-center.fw-bold #[em Thematic Dialogue]  / Diálogo Temático
-                      TarjetaAudio.no-input.mb-3(
-                        texto="Really? I congratulate you for that work. But, tell me, what happened to your hand?"
-                        :audio="require('@/assets/curso/audios/tema4/7.mp3')"
-                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                        style='background-color: #fff0b5; border: 0px'
-                      )
-                      TarjetaAudio.no-input.mb-3(
-                        texto="I hurt myself pounding down a nail. I must hammer more carefully next time."
-                        :audio="require('@/assets/curso/audios/tema4/8.mp3')"
-                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                        style='background-color: #cad3f2; border: 0px'
-                      )
+                      .contenedor-traductor.edit.hr(style='background-color: #cad3f2').p-3.mb-5
+                        .contenedor-traductor__eng
+                          .row.justify-content-center.align-items-center
+                            .col-lg-10
+                              p.fst-italic.mb-0 Really? I congratulate you for that work. But, tell me, what happened to your hand?
+                            .col-lg-2
+                              Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema4/7.mp3')").mb-0
+                        .contenedor-traductor__esp(:class="{ mostrar: dial3}")
+                          p ¿En serio? Te felicito por esa labor. Pero, dime, ¿qué te pasó en la mano?
+                        a.boton-traduccion(@click='dial3 = !dial3' style='background-color: #fc5f65') Ver traducción
+                        
+                      .contenedor-traductor.edit.hr(style='background-color: #fff0b5').p-3.mb-5
+                        .contenedor-traductor__eng
+                          .row.justify-content-center.align-items-center
+                            .col-lg-10
+                              p.fst-italic.mb-0 I hurt myself pounding down a nail. I must hammer more carefully next time.
+                            .col-lg-2
+                              Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema4/8.mp3')").mb-0
+                        .contenedor-traductor__esp(:class="{ mostrar: dial4}")
+                          p Me lastimé clavando una puntilla. Debo martillar más cuidadosamente la próxima vez.
+                        a.boton-traduccion(@click='dial4 = !dial4' style='background-color: #fc5f65') Ver traducción
               .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/4.svg', alt='' )
     Separador
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -242,31 +261,34 @@
               br
               |Let’s see the cases and norms of regular and irregular adverbs, and how to form them:
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp4}")
-            p Los adverbios regulares se forman agregando el sufijo "-ly", a veces solo o con alguna ligera variación al final del adjetivo. Los adverbios irregulares no se forman a partir de estas convenciones ortográficas estándar del inglés. Debido a que no siguen las “reglas”, no hay truco para usarlos, simplemente hay que memorizarlos.
+            p Los adverbios regulares se forman agregando el #[b sufijo "-ly"], a veces solo o con alguna ligera variación al final del adjetivo. Los adverbios irregulares no se forman a partir de estas convenciones ortográficas estándar del inglés. Debido a que no siguen las “reglas”, no hay truco para usarlos, simplemente hay que memorizarlos.
+              br
+              br
+              | Veamos los casos y normas de los adverbios regulares e irregulares, y cómo formarlos:
           a.boton-traduccion(@click='ocultarEsp4 = !ocultarEsp4' style='background-color: #fc5f65') Ver traducción
     h4.fst-italic.text-center Regular adverbs rules
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta bg-rojo ")
-      div(titulo="Rule 1")
+      div(titulo="<em> Rule 1</em>")
         .tarjeta.bg-white.p-5
           .tabla-a.mb-5
             table
               thead
                 tr(style='background-color: #6b8dfc')
-                  th Adjectives #[br] 
+                  th #[em Adjectives] #[br] 
                     span.fw-normal  Adjetivos
-                  th Rule#[br]
+                  th #[em Rule] #[br]
                     span.fw-normal  Regla
-                  th Examples (adjective - adverb)#[br] 
+                  th #[em Examples (adjective - adverb)] #[br] 
                     span.fw-normal  Ejemplos (adjetivo - adverbio)
-                  th Comparative adverb #[br] 
+                  th #[em Comparative adverb] #[br] 
                     span.fw-normal Adverbio comparativo
               tbody(style='background-color: #f0f4ff').text-center
                 tr
-                  td(rowspan='2') Ending in a consonant plus -Y
+                  td(rowspan='2') #[em Ending in a consonant plus -Y]
                     br
                     br
                     |Terminados en consonante más -Y
-                  td(rowspan='2') The -Y is change → to -I + -ly
+                  td(rowspan='2') #[em The -Y is change → to -I + -ly]
                     br
                     br
                     |Se cambia la -Y → por -i + -ly
@@ -299,19 +321,19 @@
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 más / menos furiosamente
-      div(titulo="Rule 2")
+      div(titulo="<em> Rule 2</em>")
         .tarjeta.bg-white.p-5
           .tabla-a.mb-5
             table
               thead
                 tr(style='background-color: #6b8dfc')
-                  th Adjectives #[br] 
+                  th #[em Adjectives]  #[br] 
                     span.fw-normal  Adjetivos
                   th Rule#[br]
                     span.fw-normal  Regla
-                  th Examples (adjective - adverb)#[br] 
+                  th #[em Examples (adjective - adverb)] #[br] 
                     span.fw-normal  Ejemplos (adjetivo - adverbio)
-                  th Comparative adverb #[br] 
+                  th #[em Comparative adverb]  #[br] 
                     span.fw-normal Adverbio comparativo
               tbody(style='background-color: #f0f4ff').text-center
                 tr
@@ -354,28 +376,28 @@
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 más / menos trágicamente
-      div(titulo="Rule 3")
+      div(titulo="<em> Rule 3 </em>")
         .tarjeta.bg-white.p-5
           .tabla-a.mb-5
             table
               thead
                 tr(style='background-color: #6b8dfc')
-                  th Adjectives #[br] 
+                  th #[em Adjectives] #[br] 
                     span.fw-normal  Adjetivos
-                  th Rule#[br]
+                  th #[em Rule] #[br]
                     span.fw-normal  Regla
-                  th Examples (adjective - adverb)#[br] 
+                  th #[em Examples (adjective - adverb)] #[br] 
                     span.fw-normal  Ejemplos (adjetivo - adverbio)
-                  th Comparative adverb #[br] 
+                  th #[em Comparative adverb] #[br] 
                     span.fw-normal Adverbio comparativo
               tbody(style='background-color: #f0f4ff').text-center
                 tr
-                  td(rowspan='2') ending in -le
+                  td(rowspan='2') #[em ending in -le]
                     br
                     br
                     |terminados en -le
                     
-                  td(rowspan='2') the -l is kept and the -e is changed → to -y
+                  td(rowspan='2') #[em the -l is kept and the -e is changed → to -y]
                     br
                     br
                     |se conserva la -l y se cambia la -e → por la -y
@@ -409,28 +431,28 @@
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 de una manera más/menos terrible
-      div(titulo="Rule 4")
+      div(titulo="<em> Rule 4 </em> ")
         .tarjeta.bg-white.p-5
           .tabla-a.mb-5
             table
               thead
                 tr(style='background-color: #6b8dfc')
-                  th Adjectives #[br] 
+                  th #[em Adjectives] #[br] 
                     span.fw-normal  Adjetivos
-                  th Rule#[br]
+                  th #[em Rule] #[br]
                     span.fw-normal  Regla
-                  th Examples (adjective - adverb)#[br] 
+                  th #[em Examples (adjective - adverb)] #[br] 
                     span.fw-normal  Ejemplos (adjetivo - adverbio)
-                  th Comparative adverb #[br] 
+                  th #[em Comparative adverb] #[br] 
                     span.fw-normal Adverbio comparativo
               tbody(style='background-color: #f0f4ff').text-center
                 tr
-                  td(rowspan='2') ending in -l
+                  td(rowspan='2') #[em ending in -l]
                     br
                     br
                     |terminados en -l
                     
-                  td(rowspan='2') -ly is added
+                  td(rowspan='2') #[em -ly is added]
                     br
                     br
                     |se añade -ly
@@ -441,7 +463,7 @@
                     :audio="require('@/assets/curso/audios/tema4/23.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
-                    p.ms-4 Bonita/ol / Hermosamente
+                    p.ms-4 Bonita/o / Hermosamente
                   td
                     TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="more/less beautifully"
@@ -468,27 +490,27 @@
       span.r--1 Irregular adverbs can be tricky. Sometimes they take different spellings on their endings or irregular forms that look like adjectives. Let’s see some exceptions. 
       span.r--g / Los adverbios irregulares pueden ser complicados. A veces toman diferentes grafías en sus terminaciones o formas irregulares que parecen adjetivos. Veamos algunas excepciones.
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta bg-rojo ")
-      div(titulo="Exception 1")
+      div(titulo="<em> Exception 1</em>")
         .tarjeta.bg-white.p-5
           .tabla-a.mb-5
             table
               thead
                 tr(style='background-color: #6b8dfc')
-                  th Adjectives #[br] 
+                  th #[em Adjectives] #[br] 
                     span.fw-normal  Adjetivos
-                  th Rule#[br]
+                  th #[em Rule] #[br]
                     span.fw-normal  Regla
-                  th Examples (adjective - adverb)#[br] 
+                  th #[em Examples (adjective - adverb)] #[br] 
                     span.fw-normal  Ejemplos (adjetivo - adverbio)
-                  th Comparative adverb #[br] 
+                  th #[em Comparative adverb] #[br] 
                     span.fw-normal Adverbio comparativo
               tbody(style='background-color: #f0f4ff').text-center
                 tr
-                  td(rowspan='2') Exceptions
+                  td(rowspan='2') #[em Exceptions]
                     br
                     br
                     |Excepciones
-                  td #[b They do not undergo any change]
+                  td #[b #[em They do not undergo any change]]
                     br
                     |No sufren ningún cambio
                   td
@@ -506,7 +528,7 @@
                     )
                     p.ms-4 más rápidamente / de una forma menos rápida
                 tr
-                  td #[b They do not undergo any change]
+                  td #[b #[em They do not undergo any change]]
                     br
                     |No sufren ningún cambio
                   td
@@ -523,27 +545,27 @@
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ms-4 de una forma más/menos fuerte
-      div(titulo="Exception 2")
+      div(titulo="<em> Exception 2</em>")
         .tarjeta.bg-white.p-5
           .tabla-a.mb-5
             table
               thead
                 tr(style='background-color: #6b8dfc')
-                  th Adjectives #[br] 
+                  th #[em Adjectives] #[br] 
                     span.fw-normal  Adjetivos
-                  th Rule#[br]
+                  th #[em Rule] #[br]
                     span.fw-normal  Regla
-                  th Examples (adjective - adverb)#[br] 
+                  th #[em Examples (adjective - adverb)] #[br] 
                     span.fw-normal  Ejemplos (adjetivo - adverbio)
-                  th Comparative adverb #[br] 
+                  th #[em Comparative adverb] #[br] 
                     span.fw-normal Adverbio comparativo
               tbody(style='background-color: #f0f4ff').text-center
                 tr
-                  td(rowspan='2') Exceptions
+                  td(rowspan='2') #[em Exceptions]
                     br
                     br
                     |Excepciones
-                  td They totally change
+                  td #[em They totally change]
                     br
                     |Cambian totalmente
                   td
@@ -598,6 +620,10 @@ export default {
     ocultarEsp4: true,
     ocultarEsp5: true,
     ocultarEsp6: true,
+    dial1: true,
+    dial2: true,
+    dial3: true,
+    dial4: true,
     dialogo: {
       personajes: [
         {

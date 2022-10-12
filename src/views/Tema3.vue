@@ -17,6 +17,9 @@
               |Our stories, experiences, and anecdotes are part of our lives, and that is why we love to share them with family, friends and acquaintances. Surely, we know how to tell them in great detail, but… to tell in English we must use the appropriate verb tenses, expressions to give rise to another idea or to end a narrative. Based on this statement, we invite you to listen to the following dialogue, more complex and elaborated, with the grammatical structures used in an anecdote. 
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
             p Una anécdota es una historia corta e interesante, generalmente con una lección o tema singular. Las anécdotas no difieren mucho de las historias cotidianas contadas entre amigos, pero, cuando se usan en la literatura, pueden lograr más que simplemente entretener.
+              br
+              br
+              | Nuestras historias, experiencias y anécdotas forman parte de nuestras vidas, y por eso nos encanta compartirlas con familiares, amigos y conocidos. Seguro que sabemos contarlas con todo lujo de detalles, pero... para narrar en inglés debemos usar los tiempos verbales apropiados, expresiones para dar lugar a otra idea o para terminar una narración. A partir de esta afirmación, le invitamos a escuchar el siguiente diálogo, más complejo y elaborado, con las estructuras gramaticales utilizadas en una anécdota. 
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp' style='background-color: #fc5f65') Ver traducción
     .margin-n.p-5.mb-5.bg-tema(data-aos="zoom-in")
       h4.text-center
@@ -29,33 +32,49 @@
               .col-lg-6: img(src='@/assets/curso/temas/tema3/2.svg', alt='') 
               
               .col-lg-6
-                TarjetaAudio.no-input.mb-3(
-                    texto="<b>Lucas:</b> Hello, Victoria. I’m calling you because I’m really scared and I need to talk to someone. Something very shocking has happened to me."
-                    :audio="require('@/assets/curso/audios/tema3/1.mp3')"
-                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                    style='background-color: #cad3f2; border: 0px'
-                  )
-                TarjetaAudio.no-input.mb-3(
-                    texto="<b>Victoria:</b> Hi, Lucas. What happened? Are you okay?"
-                    :audio="require('@/assets/curso/audios/tema3/2.mp3')"
-                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                    style='background-color: #fff0b5; border: 0px'
-                  )
+                .contenedor-traductor.edit.hr(style='background-color: #cad3f2').p-3.mb-5
+                  .contenedor-traductor__eng
+                    .row.justify-content-center.align-items-center
+                      .col-lg-10
+                        p.fst-italic.mb-0 <b>Lucas:</b> Hello, Victoria. I’m calling you because I’m really scared and I need to talk to someone. Something very shocking has happened to me.
+                      .col-lg-2
+                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema3/1.mp3')").mb-0
+                  .contenedor-traductor__esp(:class="{ mostrar: dial1}")
+                    p Hola, Victoria. Te estoy llamando porque estoy muy asustado y necesito hablar con alguien. Me ha pasado algo muy impactante. 
+                  a.boton-traduccion(@click='dial1 = !dial1' style='background-color: #fc5f65') Ver traducción
+                .contenedor-traductor.edit.hr(style='background-color: #fff0b5').p-3.mb-5
+                  .contenedor-traductor__eng
+                    .row.justify-content-center.align-items-center
+                      .col-lg-10
+                        p.fst-italic.mb-0 <b>Victoria:</b> Hi, Lucas. What happened? Are you okay?
+                      .col-lg-2
+                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema3/2.mp3')").mb-0
+                  .contenedor-traductor__esp(:class="{ mostrar: dial2}")
+                    p Hola, Lucas. ¿Qué te pasó? ¿Estás bien?
+                  a.boton-traduccion(@click='dial2 = !dial2' style='background-color: #fc5f65') Ver traducción
             .row.justify-content-center
               
               .col-lg-6
-                TarjetaAudio.no-input.mb-3(
-                    texto="<b>Lucas:</b> I have just experienced the worst earthquake of my life, I’m sure you’ll hear about it on the news.<br><br> The floor and the walls shook strongly, I thought the house was going to collapse."
-                    :audio="require('@/assets/curso/audios/tema3/3.mp3')"
-                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                    style='background-color: #cad3f2; border: 0px'
-                  )
-                TarjetaAudio.no-input.mb-3(
-                    texto="<b>Victoria:</b> Oh, my God! And what happened next?"
-                    :audio="require('@/assets/curso/audios/tema3/4.mp3')"
-                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                    style='background-color: #fff0b5; border: 0px'
-                  )
+                .contenedor-traductor.edit.hr(style='background-color: #cad3f2').p-3.mb-5
+                  .contenedor-traductor__eng
+                    .row.justify-content-center.align-items-center
+                      .col-lg-10
+                        p.fst-italic.mb-0 <b>Lucas:</b> I have just experienced the worst earthquake of my life, I’m sure you’ll hear about it on the news.<br><br> The floor and the walls shook strongly, I thought the house was going to collapse.
+                      .col-lg-2
+                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema3/3.mp3')").mb-0
+                  .contenedor-traductor__esp(:class="{ mostrar: dial3}")
+                    p Acabo de experimentar el peor terremoto de mi vida, seguro oirás de él en las noticias. El suelo y las paredes se movieron fuertemente, pensé que la casa iba a derrumbarse.
+                  a.boton-traduccion(@click='dial3 = !dial3' style='background-color: #fc5f65') Ver traducción
+                .contenedor-traductor.edit.hr(style='background-color: #fff0b5').p-3.mb-5
+                  .contenedor-traductor__eng
+                    .row.justify-content-center.align-items-center
+                      .col-lg-10
+                        p.fst-italic.mb-0 <b>Victoria:</b> Oh, my God! And what happened next?
+                      .col-lg-2
+                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema3/4.mp3')").mb-0
+                  .contenedor-traductor__esp(:class="{ mostrar: dial4}")
+                    p ¡Ay, mi Dios! ¿Y qué pasó después?
+                  a.boton-traduccion(@click='dial4 = !dial4' style='background-color: #fc5f65') Ver traducción
               .col-lg-6: img(src='@/assets/curso/temas/tema3/3.svg', alt='') 
             .tarjeta-intro__icon1: img(src='@/assets/curso/portada/a4.svg', alt='')
             .tarjeta-intro__icon2: img(src='@/assets/curso/portada/a5.svg', alt='')
@@ -73,18 +92,18 @@
                   p.fst-italic  #[b What is an anecdote?] / ¿Qué es una anécdota?
                     br
                     br
-                    |An anecdote is…
+                    |- An anecdote is…
                     br
                     br
-                    |A short and entertaining history of past events.
+                    |- A short and entertaining history of past events.
                     br
-                    |Usually funny, scary or extraordinary.
+                    |- Usually funny, scary or extraordinary.
                     br
-                    |Real or fictitious. Or a mixture of both due to the exaggeration of the narrator.
+                    |- Real or fictitious. Or a mixture of both due to the exaggeration of the narrator.
                     br
-                    |A narration from which a lesson can be drawn and its tone can vary from warning to jocularity.
+                    |- A narration from which a lesson can be drawn and its tone can vary from warning to jocularity.
                     br
-                    |A story that tends to focus on a single character (usually the narrator).
+                    |- A story that tends to focus on a single character (usually the narrator).
                 .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp2}")
                   p Una anécdota es...
 
@@ -112,27 +131,27 @@
       .tarjeta.p-3(x="18.5%" y="25%" numero="+" style='background-color: #f0f4ff; border: 2px solid #638bf9')
         h4.text-center Abstract
         p.text-center
-          span.fst-italic Part where the author introduces the singular event that happened to him.
+          span.fst-italic Part where the author introduces the singular event that happened to him. 
           span.r--g / Parte donde el autor nombra el evento singular que le ocurrió.
       .tarjeta.p-3(x="34.5%" y="65%" numero="+" style='background-color: #f0f4ff; border: 2px solid #638bf9')
         h4.text-center Orientation
         p.text-center
-          span.fst-italic Part where the author gives the context of the narrative telling the who, how, when, and where. /
+          span.fst-italic Part where the author gives the context of the narrative telling the who, how, when, and where. / 
           span.r--g Parte donde el autor da el contexto de la narración contando el quién, cómo, cuándo y dónde.
       .tarjeta.p-3(x="50%" y="25%" numero="+" style='background-color: #f0f4ff; border: 2px solid #638bf9')
         h4.text-center Crisis
         p.text-center
-          span.fst-italic The incident, the most important part of the account. /
+          span.fst-italic The incident, the most important part of the account. / 
           span.r--g  El incidente, la parte más importante del recuento.
       .tarjeta.p-3(x="65.9%" y="70%" numero="+" style='background-color: #f0f4ff; border: 2px solid #638bf9')
         h4.text-center Reaction
         p.text-center
-          span.fst-italic Where it is told what the main character (or the author) did based on the crisis.
+          span.fst-italic Where it is told what the main character (or the author) did based on the crisis. 
           span.r--g / Donde se cuenta qué hizo el personaje principal (o el autor) a partir de la crisis.
       .tarjeta.p-3(x="81.5%" y="27%" numero="+" style='background-color: #f0f4ff; border: 2px solid #638bf9')
         h4.text-center Reflection
         p.text-center
-          span.fst-italic Also called “coda”, it makes a reflection or evaluation of the unusual event that occurred (generally the message or teaching of the anecdote comes from here). /
+          span.fst-italic Also called “coda”, it makes a reflection or evaluation of the unusual event that occurred (generally the message or teaching of the anecdote comes from here). / 
           span.r--g También llamada “coda”, hace una reflexión o evaluación del evento inusual ocurrido (generalmente, el mensaje o la enseñanza de la anécdota sale de aquí).
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="fade-right")
@@ -176,6 +195,10 @@ export default {
     ocultarEsp4: true,
     ocultarEsp5: true,
     ocultarEsp6: true,
+    dial1: true,
+    dial2: true,
+    dial3: true,
+    dial4: true,
     dialogo: {
       personajes: [
         {
