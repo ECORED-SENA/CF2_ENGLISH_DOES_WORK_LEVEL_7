@@ -120,7 +120,7 @@
                             .col-lg-10
                               p.fst-italic.mb-0 Really? I congratulate you for that work. But, tell me, what happened to your hand?
                             .col-lg-2
-                              Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema4/7.mp3')").mb-0
+                              Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema4/8.mp3')").mb-0
                         .contenedor-traductor__esp(:class="{ mostrar: dial3}")
                           p ¿En serio? Te felicito por esa labor. Pero, dime, ¿qué te pasó en la mano?
                         a.boton-traduccion(@click='dial3 = !dial3' style='background-color: #fc5f65') Ver traducción
@@ -131,7 +131,7 @@
                             .col-lg-10
                               p.fst-italic.mb-0 I hurt myself pounding down a nail. I must hammer more carefully next time.
                             .col-lg-2
-                              Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema4/8.mp3')").mb-0
+                              Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema4/7.mp3')").mb-0
                         .contenedor-traductor__esp(:class="{ mostrar: dial4}")
                           p Me lastimé clavando una puntilla. Debo martillar más cuidadosamente la próxima vez.
                         a.boton-traduccion(@click='dial4 = !dial4' style='background-color: #fc5f65') Ver traducción
@@ -337,12 +337,12 @@
                     span.fw-normal Adverbio comparativo
               tbody(style='background-color: #f0f4ff').text-center
                 tr
-                  td(rowspan='2') Ending in -ic
+                  td(rowspan='2') #[em Ending in -ic]
                     br
                     br
                     |Terminados en -ic
                     
-                  td(rowspan='2')  The ending -ally is added
+                  td(rowspan='2')  #[em The ending -ally is added]
                     br
                     br
                     |Se le añade la terminación -ally

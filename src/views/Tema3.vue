@@ -92,7 +92,7 @@
                   p.fst-italic  #[b What is an anecdote?] / ¿Qué es una anécdota?
                     br
                     br
-                    |- An anecdote is…
+                    | An anecdote is…
                     br
                     br
                     |- A short and entertaining history of past events.

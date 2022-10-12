@@ -643,7 +643,7 @@
                       span.r--g / Por ejemplo:  
                     .d-flex.justify-content-center
                       TarjetaAudio.bg-white.color-acento-botones.mb-3(
-                        texto="I have called him five times so far <span class= 'r--b fw-normal fst-normal' > Lo he llamado cinco veces hasta ahora.</span>"
+                        texto="I have called him five times so far. <span class= 'r--b fw-normal fst-normal' > Lo he llamado cinco veces hasta ahora.</span>"
                         :audio="require('@/assets/curso/audios/tema2/46.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
@@ -678,7 +678,7 @@
                       div(style="background-color: #3c3fa7 ").p-2.d-inline-block.mb-4
                         h4.text-white.mb-0.mx-5.fst-italic Present Perfect
                     p
-                      span.r--1 To talk about things that happened in the past, but we don’t specify when they have happened. /
+                      span.r--1 To talk about things that happened in the past, but we don’t specify when they have happened. / 
                       span.r--g Para hablar de cosas que sucedieron en el pasado, pero no especificamos cuándo han sucedido.
                     p
                       span.r--1 For example / 
@@ -1048,7 +1048,7 @@
           div(titulo="Still")
             .tarjeta.bg-white.p-4
               p
-                span.fst-italic #[b Use:] Events that have not happened for a long time (negative sentences). 
+                span.fst-italic #[b Use:] Events that have not happened for a long time (negative sentences). / 
                 span.r--g Acontecimientos que continúan sin ocurrir desde hace mucho tiempo (frases negativas).
               h5.text-center.fst-italic For example:
               .row.justify-content-center.mb-3
@@ -1123,7 +1123,7 @@
           div(titulo="Since")
             .tarjeta.bg-white.p-4
               p
-                span.fst-italic #[b Use: To mark the moment something started in the past and continues until now. ]  
+                span.fst-italic  Use: To mark the moment something started in the past and continues until now.  
                 span.r--g / Para señalar el momento en que comenzó algo en el pasado y continúa hasta ahora.
               h5.text-center.fst-italic For example:
               .row.justify-content-center.mb-3
