@@ -1123,7 +1123,7 @@
           div(titulo="Since")
             .tarjeta.bg-white.p-4
               p
-                span.fst-italic  Use: To mark the moment something started in the past and continues until now.  
+                span.fst-italic  #[b Use:] To mark the moment something started in the past and continues until now.  
                 span.r--g / Para señalar el momento en que comenzó algo en el pasado y continúa hasta ahora.
               h5.text-center.fst-italic For example:
               .row.justify-content-center.mb-3
