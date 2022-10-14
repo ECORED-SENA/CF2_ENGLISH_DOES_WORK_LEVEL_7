@@ -97,22 +97,22 @@
             .tarjeta-intro__icon2: img(src='@/assets/curso/portada/a5.svg', alt='')    
     .row.justify-content-center.mb-5
       .col-lg-5(data-aos="fade-right")
-        .tarjeta(style="background-color: #FCF2CA").p-3
-          h4.ms-5 #[em PRESENT PERFECT TENSE] 
+        .tarjeta(style="background-color: #FCF2CA").p-3.mb-lg-0.mb-3
+          h5.ms-5 #[em PRESENT PERFECT TENSE] 
           .tarjeta.color-secundario.p-2.d-flex.align-items-center.mb-3
             img(src='@/assets/curso/temas/tema2/7.svg', alt='' style='width: 44px').me-4
             .fst-italic
-              h4.mb-1 Subject + have/has + past participle
+              h5.mb-1 Subject + have/has + past participle
               p.mb-0 She has lived in Liverpool all her life.
           .tarjeta.color-secundario.p-2.d-flex.align-items-center.mb-3
             img(src='@/assets/curso/temas/tema2/8.svg', alt='' style='width: 44px').me-4
             .fst-italic
-              h4.mb-1 Subject + have not (haven't)/has not (hasn’t) + past participle
+              h5.mb-1 Subject + have not (haven't)/has not (hasn’t) + past participle
               p.mb-0 She hasn't lived in Liverpool all her life.
           .tarjeta.color-secundario.p-2.d-flex.align-items-center.mb-3
             img(src='@/assets/curso/temas/tema2/9.svg', alt='' style='width: 44px').me-4
             .fst-italic
-              h4.mb-1 Have/Has + subject + past participle?
+              h5.mb-1 Have/Has + subject + past participle?
               p.mb-0 Has she lived in Liverpool all her life?
       .col-lg-7(data-aos="fade-right") 
         div(style="background-color: #3c3fa7 ").p-2.d-inline-block.mb-4
@@ -148,7 +148,7 @@
                   .col-lg-10
                     img(src='@/assets/curso/temas/tema2/11.svg', alt='')
                 .row.justify-content-center.align-items-center.mb-5
-                  .col-lg-3.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/12.svg', alt='')
+                  .col-lg-3.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/12.svg', alt='')
                   .col-lg-6
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="<span class=  r--4 >I</span> <span class=  r--3 >have</span> <span class=  f--2 >lived</span> in Colombia since 1997."
@@ -158,7 +158,7 @@
                     )
                     p.ms-3 Yo he vivido en Colombia desde 1997.
                 .row.justify-content-center.align-items-center.mb-5
-                  .col-lg-3.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/13.svg', alt='')
+                  .col-lg-3.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/13.svg', alt='')
                   .col-lg-6
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="<span class=  r--4 >He</span> <span class=  r--3 >has </span> <span class=  f--2 >lived</span> abroad for 15 years."
@@ -178,7 +178,7 @@
                   .col-lg-10
                     img(src='@/assets/curso/temas/tema2/14.svg', alt='')
                 .row.justify-content-center.align-items-center.mb-5
-                  .col-lg-3.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/12.svg', alt='')
+                  .col-lg-3.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/12.svg', alt='')
                   .col-lg-6
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="<span class=  r--4 >I</span> <span class=  r--3 >haven’t </span> <span class=  f--2 >lived</span> in Colombia since 1997."
@@ -188,7 +188,7 @@
                     )
                     p.ms-3 Yo no he vivido en Colombia desde 1997.
                 .row.justify-content-center.align-items-center.mb-5
-                  .col-lg-3.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/13.svg', alt='')
+                  .col-lg-3.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/13.svg', alt='')
                   .col-lg-6
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="<span class=  r--4 >He</span> <span class=  r--3 >hasn’t</span> <span class=  f--2 >lived</span> abroad for 15 years."
@@ -208,7 +208,7 @@
                   .col-lg-10
                     img(src='@/assets/curso/temas/tema2/15.svg', alt='')
                 .row.justify-content-center.align-items-center.mb-5
-                  .col-lg-3.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/12.svg', alt='')
+                  .col-lg-3.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/12.svg', alt='')
                   .col-lg-6
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="<span class=  r--3 >Have</span> <span class=  r--4 >I</span> <span class=  f--2 >lived</span> in Colombia since 1997?"
@@ -218,7 +218,7 @@
                     )
                     p.ms-3 ¿Yo he vivido en Colombia desde 1997?
                 .row.justify-content-center.align-items-center.mb-5
-                  .col-lg-3.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/13.svg', alt='')
+                  .col-lg-3.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/13.svg', alt='')
                   .col-lg-6
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="<span class=  r--3 >Has</span> <span class=  r--4 >he </span> <span class=  f--2 >lived</span> abroad for 15 years?"
@@ -238,7 +238,7 @@
                   .col-lg-10
                     img(src='@/assets/curso/temas/tema2/16.svg', alt='')
                 .row.justify-content-center.align-items-center.mb-5
-                  .col-lg-3.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/12.svg', alt='')
+                  .col-lg-3.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/12.svg', alt='')
                   .col-lg-6
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="<span class=  r--3 >Where</span> <span class=  r--5 >have</span> <span class=  r--4 >I</span> <span class=  f--2 >lived</span> since 1997?"
@@ -248,7 +248,7 @@
                     )
                     p.ms-3 ¿Dónde he vivido desde 1997?
                 .row.justify-content-center.align-items-center.mb-5
-                  .col-lg-3.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/13.svg', alt='')
+                  .col-lg-3.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/13.svg', alt='')
                   .col-lg-6
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="<span class=  r--3 >Why</span> <span class=  r--5 >has</span> <span class=  r--4 >he</span> <span class=  f--2 >lived</span> abroad for 15 years?"
@@ -496,12 +496,12 @@
         span.r--1 #[em In this numeral we will see the differences between the present perfect and the simple past, to know when and how to use each of them.] / En este numeral veremos las diferencias entre el presente perfecto y el pasado simple, para saber cuándo y cómo usar cada uno de ellos.
       .row.mb-5
         .col-lg-10
-          .tarjeta.bg-white.icono-externo.p-5.py-1
+          .tarjeta.bg-white.icono-externo.p-lg-5.py-1.p-2
 
             .icono-externo__icono.d-none.d-lg-block
               img(src='@/assets/curso/temas/tema2/26.svg', alt='' style='width: 196px')
             SlyderA.dots-4(tipo='b')
-              div.px-5
+              div.px-lg-5.px-2
                 h4.text-center.fst-italic 
                   span.r--1 Present perfect / Simple past
                     br
@@ -566,7 +566,7 @@
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
-              div.px-5
+              div.px-lg-5.px-2
                 h4.text-center.fst-italic 
                   span.r--1 Present perfect / Simple past
                     br
@@ -623,7 +623,7 @@
                             p.mb-0 #[u Did] I  #[b eat?]
                               br
                               | #[u Did] she  #[b eat?]
-              div.px-5
+              div.px-lg-5.px-2
                 h4.text-center.fst-italic 
                   span.r--1 Present perfect / Simple past
                     br
@@ -667,7 +667,7 @@
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
-              div.px-5
+              div.px-lg-5.px-2
                 h4.text-center.fst-italic 
                   span.r--1 Present perfect / Simple past
                     br
@@ -706,7 +706,7 @@
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
-              div.px-5
+              div.px-lg-5.px-2
                 h4.text-center.fst-italic 
                   span.r--1 Present perfect / Simple past
                     br
@@ -746,7 +746,7 @@
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
-              div.px-5
+              div.px-lg-5.px-2
                 h4.text-center.fst-italic 
                   span.r--1 Present perfect / Simple past
                     br
@@ -790,7 +790,7 @@
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
-              div.px-5
+              div.px-lg-5.px-2
                 h4.text-center.fst-italic 
                   span.r--1 Present perfect / Simple past
                     br
@@ -830,6 +830,7 @@
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         
                         )
+    Separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.2  Complex sentences with present perfect (Oraciones complejas con presente perfecto) 
     .row.justify-content-center.mb-5
@@ -845,7 +846,7 @@
       span.r--1 Next, we can see and listen to some examples. 
       span.r--g / A continuación, podemos ver y escuchar algunos ejemplos:
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-primario.rounded-0.p-5
+      .col-md.tarjeta.color-primario.rounded-0.p-lg-5.p-3
         h4.text-center.fst-italic
           span.r--2 Example 1
         .row.justify-content-center.mb-4
@@ -859,7 +860,7 @@
               
               )
             p.ms-4 Ella ha estado 3 días en el hospital porque pescó una gripe muy fuerte.
-      .col-md.tarjeta.color-acento-contenido.rounded-0.p-5
+      .col-md.tarjeta.color-acento-contenido.rounded-0.p-lg-5.p-3
         h4.text-center.fst-italic Example 2
         .row.justify-content-center.mb-4
           .col-8
@@ -1035,7 +1036,7 @@
                 span.r--g  / Muy recientemente, hace un momento.
               h5.text-center.fst-italic For example:
               .row.justify-content-center.mb-3
-                .col-lg-3.col-8: img(src='@/assets/curso/temas/tema2/40.svg', alt='Texto que describa la imagen')
+                .col-lg-3.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/40.svg', alt='Texto que describa la imagen')
                 .col-lg-7
                     TarjetaAudio.bg-white.color-acento-botones.mb-3(
                       texto="I’ve <span class= r--1> just</span> seen Sara with Marco."
@@ -1052,7 +1053,7 @@
                 span.r--g Acontecimientos que continúan sin ocurrir desde hace mucho tiempo (frases negativas).
               h5.text-center.fst-italic For example:
               .row.justify-content-center.mb-3
-                .col-lg-3.col-8: img(src='@/assets/curso/temas/tema2/41.svg', alt='Texto que describa la imagen')
+                .col-lg-3.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/41.svg', alt='Texto que describa la imagen')
                 .col-lg-7
                     TarjetaAudio.bg-white.color-acento-botones.mb-3(
                       texto="I <span class= r--1> still </span> haven’t called Gloria to see how she is."
@@ -1069,7 +1070,7 @@
                 span.r--g / Acontecimientos que sucedieron antes de lo esperado (frases afirmativas).
               h5.text-center.fst-italic For example:
               .row.justify-content-center.mb-3
-                .col-lg-3.col-8: img(src='@/assets/curso/temas/tema2/42.svg', alt='Texto que describa la imagen')
+                .col-lg-3.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/42.svg', alt='Texto que describa la imagen')
                 .col-lg-7
                     TarjetaAudio.bg-white.color-acento-botones.mb-3(
                       texto=" I’ve <span class= r--1> already</span> had lunch at home."
@@ -1093,7 +1094,7 @@
                 span.r--g / Usualmente, se refiere a algo que no ha sucedido, pero esperas que suceda pronto (frases negativas e interrogativas).
               h5.text-center.fst-italic For example:
               .row.justify-content-center.mb-3
-                .col-lg-3.col-8: img(src='@/assets/curso/temas/tema2/45.svg', alt='Texto que describa la imagen')
+                .col-lg-3.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/45.svg', alt='Texto que describa la imagen')
                 .col-lg-7
                     TarjetaAudio.bg-white.color-acento-botones.mb-3(
                       texto="We haven’t decided what to do <span class= r--1> yet. </span>"
@@ -1110,7 +1111,7 @@
                 span.r--g  / Mide la duración de algo o por cuánto tiempo se desarrolla.
               h5.text-center.fst-italic For example:
               .row.justify-content-center.mb-3
-                .col-lg-3.col-8: img(src='@/assets/curso/temas/tema2/46.svg', alt='Texto que describa la imagen')
+                .col-lg-3.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/46.svg', alt='Texto que describa la imagen')
                 .col-lg-7
                     TarjetaAudio.bg-white.color-acento-botones.mb-3(
                       texto="They have traveled the world <span class= r--1> for </span> 2 years."
@@ -1127,7 +1128,7 @@
                 span.r--g / Para señalar el momento en que comenzó algo en el pasado y continúa hasta ahora.
               h5.text-center.fst-italic For example:
               .row.justify-content-center.mb-3
-                .col-lg-3.col-8: img(src='@/assets/curso/temas/tema2/44.svg', alt='Texto que describa la imagen')
+                .col-lg-3.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/44.svg', alt='Texto que describa la imagen')
                 .col-lg-7
                     TarjetaAudio.bg-white.color-acento-botones.mb-3(
                       texto="He has been here <span class= r--1> since </span> 9 am."

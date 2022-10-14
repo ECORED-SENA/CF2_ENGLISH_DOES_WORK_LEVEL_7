@@ -17,7 +17,7 @@
       .col-lg-4.col-8.mb-lg-0.mb-3(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/1.png', alt='')
     .bg-tema1.margin-n.p-5(style='background-color: #acade1').mb-5
       .row.justify-content-center.mb-5
-        .col-lg-4.col-8.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/2.jpg', alt='' style='border-radius: 10px')
+        .col-lg-4.col-5.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/2.jpg', alt='' style='border-radius: 10px')
         .col-lg-8(data-aos="fade-left")
           .contenedor-traductor(style='background-color: #fcf2ca').mb-5
             .contenedor-traductor__eng
@@ -88,8 +88,8 @@
       .contenedor-slyder.mb-5
         .row.justify-content-end.mb-5
           .col-lg-10
-            .tarjeta.bg-white.p-5
-              .row.justify-content-end.mb-5
+            .tarjeta.bg-white.p-5.py-4
+              .row.justify-content-end
                 .col-lg-11
                   p 
                     span.r--3.fw-normal #[em Next, we are going to learn vocabulary related to some expressions used to talk about feelings, going on a trip, or life experiences.] 

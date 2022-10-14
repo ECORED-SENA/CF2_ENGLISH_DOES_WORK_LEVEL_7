@@ -7,7 +7,7 @@
         span 4
       h1 #[em Comparison with adverbs] (Comparaciones con adverbios)
     .row.justify-content-center.mb-5
-      .col-lg-4.col-8(data-aos="fade-right")
+      .col-lg-4.col-8(data-aos="fade-right").mb-lg-0.mb-3
         .tarjeta.p-4(style="background-color: #d5d6f0")
           .tarjeta.p-4(style="background-color: #f0f4ff").fst-italic
             h4.text-center
@@ -16,8 +16,8 @@
               br
               br
               | Example: 
-            .d-flex.align-items-center
-              img(src='@/assets/curso/temas/tema4/1.svg', alt='' style='width: 106px').me-4
+            .d-flex.align-items-center.flex-wrap
+              img(src='@/assets/curso/temas/tema4/1.svg', alt='' style='width: 106px').me-4.mb-lg-0.mb-3
               p
                 span.r--1.fw-bold The dog sleeps quietly.
                   br
@@ -31,7 +31,7 @@
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp' style='background-color: #fc5f65') Ver traducción
         p.mb-5(data-aos='fade-right') #[em For example:] / Por ejemplo: 
     .tarjeta--container.row.mb-5(zoom="zoom-in") 
-      .col-md.tarjeta.color-primario.rounded-0.p-5
+      .col-md.tarjeta.color-primario.rounded-0.p-lg-5.p-2
         h4.text-center.fst-italic
           span.r--2 Example 1
         .row.justify-content-center.mb-4
@@ -52,7 +52,7 @@
               
               )
             p.ms-4  “Susana patina #[b más rápido] que David”. #[b (adverbio comparativo)]
-      .col-md.tarjeta.color-acento-contenido.rounded-0.p-5
+      .col-md.tarjeta.color-acento-contenido.rounded-0.p-lg-5.p-2
         h4.text-center.fst-italic Example 2
         .row.justify-content-center.mb-4
           .col-8
@@ -143,13 +143,13 @@
       .col-lg-7(data-aos="fade-right")
         .tarjeta.p-4(style="background-color: #f0f4ff ")
           h4.fst-italic Forming adverbs of manner
-          .tabla-a.mb-5
-            table
+          .mb-5
+            table.tsize
               thead(style='background-color: #3c3fa7')
-                tr
-                  th(style='color: #ffd947').fst-italic  Adjective
-                  th(style='color: #ffd947').fst-italic  Adverb
-                  th(style='color: #ffd947').fst-italic  What changes?
+                tr.text-center
+                  th(style='color: #ffd947').fst-italic.col-lg-4  Adjective
+                  th(style='color: #ffd947').fst-italic.col-lg-4  Adverb
+                  th(style='color: #ffd947').fst-italic.col-lg-4  What changes?
               tbody
                 tr.text-center
                   td beautiful
@@ -209,7 +209,7 @@
       span.r--g / A continuación, se nombran algunas advertencias para identificar el uso correcto de los adverbs of manner. 
     .row.justify-content-center.mb-5
       .col-lg-10
-        div(style="background-color: #fff7da ").p-5
+        div(style="background-color: #fff7da ").p-5.py-3
           .row.justify-content-center
             .col-lg-4.col-8(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema4/5.png', alt='' )
@@ -222,7 +222,7 @@
                     span.r--g Advertencia #1
               p.fst-italic.text-center In general, adverbs of manner are built based on an adjective to which the suffix -ly is added at the end of the word (regular adverbs). However, there are some cases where this is not true (irregular adverbs).
               p.text-center #[em #[b  For example]] / #[em Por ejemplo]:
-              .row.justify-content-center.mb-5
+              .row.justify-content-center
                 .col-lg-6 
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto=" slow / slowly (regular adverb)"
@@ -251,7 +251,7 @@
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 4.2  #[em Regular and irregular adverbs] (Adverbios regulares e irregulares)
     .row.justify-content-center.mb-5
-      .col-lg-4.col-8(data-aos="fade-right")
+      .col-lg-4.col-8.mb-lg-0.mb-3(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema4/6.svg', alt='' )
       .col-lg-8(data-aos="fade-left")
         .contenedor-traductor(style='background-color: #fcf2ca').mb-5
@@ -681,4 +681,11 @@ export default {
     top: 0
     right: 0
     transform: translate(50%)
+.tsize
+  th:nth-child(1)
+    width: 20% !important
+  th:nth-child(2)
+    width: 20% !important
+  th:nth-child(3)
+    width: 40% !important
 </style>

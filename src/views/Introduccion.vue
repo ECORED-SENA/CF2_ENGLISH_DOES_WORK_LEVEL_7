@@ -12,8 +12,8 @@
       .row.justify-content-center.mb-5
         .col-lg-4.col-8(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/intro/1.png', alt='')
         .col-lg-7(data-aos="fade-left")
-          .tarjeta.bg-white.p-5.tarjeta-intro 
-            p.mb-4 Este nivel de formación bilingüe se enfoca en narrar recuentos anecdóticos y experiencias de vida; para esto, se necesita saber usar los tiempos 
+          .tarjeta.bg-white.p-4.p-lg-5.tarjeta-intro 
+            p.mb-4.p-3.p-lg-0 Este nivel de formación bilingüe se enfoca en narrar recuentos anecdóticos y experiencias de vida; para esto, se necesita saber usar los tiempos 
               span.r--1 presente perfecto y pasado simple, 
               | ya que  estos se complementan para contar cabalmente una historia.  También se debe aprender a usar 
               span.r--1 los adverbios de modo, 
@@ -22,7 +22,7 @@
               | las cuales ayudan a expresar sorpresa, conmoción o una emoción fuerte sobre lo que se está narrando. Partiendo de lo anterior, le damos la bienvenida al estudio de este componente formativo y, para comenzar, se le invita a explorar el video que se presenta a continuación:
             .tarjeta-intro__icon1: img(src='@/assets/curso/portada/a4.svg', alt='')
             .tarjeta-intro__icon2: img(src='@/assets/curso/portada/a5.svg', alt='')
-            .tarjeta-intro__cta.mx-5
+            .tarjeta-intro__cta.mx-0.mx-lg-5
               a.anexo.my-4.mb-lg-0(:href="obtenerLink('downloads/doc1.pdf')" target="_blank" style='background-color: #3c3fa7')
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")

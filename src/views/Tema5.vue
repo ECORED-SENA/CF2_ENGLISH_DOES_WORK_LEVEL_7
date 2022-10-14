@@ -47,7 +47,7 @@
         .col-lg-9
           .tarjeta.bg-white.p-5.tarjeta-intro 
             .row.justify-content-center.mb-5
-              .col-lg-6: img(src='@/assets/curso/temas/tema5/2.svg', alt='') 
+              .col-lg-6.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema5/2.svg', alt='') 
               
               .col-lg-6
                 .contenedor-traductor.edit.hr(style='background-color: #cad3f2').p-3.mb-5
@@ -278,7 +278,7 @@ export default {
   background-image: url('../assets/curso/temas/tema3/bg-3.svg')
   background-repeat: no-repeat
   background-position: center
-  background-size: 100% 100%
+  background-size:  cover
 .imagen-absolute
   position: relative
   margin-right: 50px

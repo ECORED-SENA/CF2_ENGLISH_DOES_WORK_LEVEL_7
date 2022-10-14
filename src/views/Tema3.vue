@@ -7,7 +7,7 @@
         span 3
       h1 #[em Textual structure of anecdotes] (Estructura textual de anécdotas) 
     .row.justify-content-center.mb-5
-      .col-lg-4.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema3/1.jpg', alt='' style='border-radius: 20px')
+      .col-lg-4.col-8.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema3/1.jpg', alt='' style='border-radius: 20px')
       .col-lg-8(data-aos="fade-left")
         .contenedor-traductor(style='background-color: #fcf2ca').mb-5
           .contenedor-traductor__eng
@@ -29,7 +29,7 @@
         .col-lg-9
           .tarjeta.bg-white.p-5.tarjeta-intro 
             .row.justify-content-center.mb-5
-              .col-lg-6: img(src='@/assets/curso/temas/tema3/2.svg', alt='') 
+              .col-lg-6.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema3/2.svg', alt='') 
               
               .col-lg-6
                 .contenedor-traductor.edit.hr(style='background-color: #cad3f2').p-3.mb-5
@@ -85,7 +85,7 @@
       .col-lg-10
         .imagen-absolute(data-aos="zoom-in")
           .contenedor-traductor.imagen-absolute(style='background-color: #fcf2ca').mb-5
-            .imagen-absolute__img: img(src='@/assets/curso/temas/tema3/4.svg', alt='' style='width: 295px')
+            .imagen-absolute__img.d-lg-block.d-none: img(src='@/assets/curso/temas/tema3/4.svg', alt='' style='width: 295px')
             .row
               .col-lg-11
                 .contenedor-traductor__eng
