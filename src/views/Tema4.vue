@@ -203,7 +203,7 @@
     p.mb-5(data-aos='fade-right') Se le invita a explorar el video que se presenta a continuación:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/pYyogsofFIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5(data-aos='fade-right') 
       span.r--1 Below are some warnings to identify the correct use of the adverbs of manner. 
       span.r--g / A continuación, se nombran algunas advertencias para identificar el uso correcto de los adverbs of manner. 
@@ -241,12 +241,12 @@
       span.r--1.fst-italic Adverbs of manner
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/pYyogsofFIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5(data-aos='fade-right').text-center A continuación, se invita a ver algunas excepciones de los 
       span.r--1.fst-italic Adverbs of manner
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/u8L0rHXHOm8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 4.2  #[em Regular and irregular adverbs] (Adverbios regulares e irregulares)

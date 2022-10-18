@@ -169,7 +169,7 @@
       .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema3/6.png', alt='' style='width: 100%')
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Xs1rmRyP2Fo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5(data-aos='fade-right')
       span.r--1 Now, let’s test how much you learned about the textual structure of anecdotes. Complete the following dialogue. 
       span.r--g / Ahora, probemos cuánto aprendió de la estructura textual de las anécdotas. Complete el siguiente diálogo.
