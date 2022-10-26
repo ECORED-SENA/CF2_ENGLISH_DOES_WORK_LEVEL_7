@@ -117,7 +117,7 @@
         .tarjeta.p-3(x="25%" y="90%" numero="+" style='background-color: #f0f4ff ; border: 2px solid #89b1f3')
           h4.text-center #[em Exclamation sentence] / Frase exclamativa
           TarjetaAudio.bg-white.color-acento-botones.mb-3(
-            texto="You’re joking? / <span class=' fst-normal fw-normal r--b' >  ¿Estás bromeando? </span>"
+            texto="You’re joking! / <span class=' fst-normal fw-normal r--b' >  ¡Estás bromeando! </span>"
             :audio="require('@/assets/curso/audios/tema5/6.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
