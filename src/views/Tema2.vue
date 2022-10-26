@@ -328,7 +328,7 @@
                     )
                   .col-lg-4.mb-lg-0.mb-3
                     TarjetaAudio.color-acento-botones.mb-3(
-                    texto="Lia has lost her Ipod."
+                    texto="Lia has lost her iPod."
                     :audio="require('@/assets/curso/audios/tema2/1_5.wav')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     
@@ -343,7 +343,7 @@
                 img(src='@/assets/curso/temas/tema2/20.svg', alt='')
               div
                 p.text-center.fst-italic 
-                  span.r--3 #[b When the time for carrying out ]
+                  span.r--3 #[b When the time for carrying out the action has not ended. ]
                 p Cuando se usa para referir acciones no finalizadas. 
                   br
                   br
@@ -449,7 +449,7 @@
                   br
                   br
                 p 
-                  span.r--1 #[em In this case, it is observed that the action started in the past but continues even in the present. ] 
+                  span.r--1 #[em When the moment in which the action was carried out is not relevant. ] 
                   span.r--g / Cuando el momento en que se llevó a cabo la acción no es relevante.
                   br
                   br
@@ -878,15 +878,9 @@
       .col-lg-7(data-aos="fade-left")
         .contenedor-traductor(style='background-color: #fcf2ca').mb-5
           .contenedor-traductor__eng
-            p.fst-italic  Subordinating conjunctions, unlike coordinating conjunctions, join sentences that are not of the same grammatical or syntactic category. These conjunctions are used to join a main clause with a subordinate clause, since the latter would not make sense on its own.
-              br
-              br
-              |They can be of different types: time, opposition, cause and effect or condition.
+            p.fst-italic  Subordinating conjunctions, unlike coordinating conjunctions, join sentences that are not of the same grammatical or syntactic category. 
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp6}")
-            p Las conjunciones subordinantes, al contrario de las conjunciones coordinantes, unen frases que no son de la misma categoría gramatical o sintáctica. Estas conjunciones se usan para unir una oración principal con una subordinada, puesto que esta última no tendría sentido por sí sola.
-              br
-              br
-              |Pueden ser de distinto tipo: tiempo, oposición, causa y efecto o condición.
+            p Las conjunciones subordinantes, al contrario de las conjunciones coordinantes, unen frases que no son de la misma categoría gramatical o sintáctica. 
 
           a.boton-traduccion(@click='ocultarEsp6 = !ocultarEsp6' style='background-color: #fc5f65') Ver traducción
     p.mb-5(data-aos='fade-right').text-center A continuación, podemos estudiar algunas de ellas:
@@ -1016,12 +1010,9 @@
       .col-lg-7(data-aos="fade-left")
         .contenedor-traductor(style='background-color: #fcf2ca').mb-5
           .contenedor-traductor__eng
-            p.fst-italic  Although they can sometimes be used with other tenses, we often use the adverbs #[b “just”, “still”, “already”], and #[b “yet”], or the prepositions #[b “since”] and #[b “for”] with the present perfect tense. These words generally refer to a period of time between the past and now. Let’s see how to use each of them.
+            p.fst-italic  Although they can sometimes be used with other tenses, we often use the adverbs #[b “just”, “still”, “already”], and #[b “yet”], or the prepositions #[b “since”] and #[b “for”] with the present perfect tense. 
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp6}")
             p Si bien a veces pueden usarse con otros tiempos verbales, a menudo usamos los adverbios #[em "just"], #[em "still"], #[em "already"] y #[em "yet"] o las preposiciones #[em "since"] y #[em "for"] con el tiempo presente perfecto.
-              br
-              |Estas palabras generalmente se refieren a un periodo de tiempo entre el pasado y el ahora. Veamos cómo usar cada uno de ellos.
-
           a.boton-traduccion(@click='ocultarEsp6 = !ocultarEsp6' style='background-color: #fc5f65') Ver traducción
     p.mb-5(data-aos='fade-right')
       span.r--1.fst-italic These words generally refer to a period of time between the past and now. Let's see how to use each of them. 

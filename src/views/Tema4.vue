@@ -203,7 +203,7 @@
     p.mb-5(data-aos='fade-right') Se le invita a explorar el video que se presenta a continuación:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/pYyogsofFIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/ybbrXnSS88U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5(data-aos='fade-right') 
       span.r--1 Below are some warnings to identify the correct use of the adverbs of manner. 
       span.r--g / A continuación, se nombran algunas advertencias para identificar el uso correcto de los adverbs of manner. 
@@ -375,7 +375,7 @@
                     :audio="require('@/assets/curso/audios/tema4/18.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
-                    p.ms-4 más / menos trágicamente
+                    p.ms-4 más / menos magicamente
       div(titulo="<em> Rule 3 </em>")
         .tarjeta.bg-white.p-5
           .tabla-a.mb-5

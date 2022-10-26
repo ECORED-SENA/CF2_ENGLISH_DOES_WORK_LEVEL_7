@@ -194,7 +194,7 @@
     Dialogo.color-acento-contenido(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) #[em Dialogue about the exclamation phrases] / Diálogo sobre las frases de exclamación.
-      template(#descripcion-actividad) Unlike Spanish, English doesn't have an opening exclamation mark at the beginning of the phrase.
+      template(#descripcion-actividad) Arrastra y suelta las palabras en la conversación.
 
 
 
